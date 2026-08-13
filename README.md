@@ -1,18 +1,24 @@
 # Message Intelligence System
 
-An AI/ML engineering assignment project that processes fictional messages and extracts useful information while protecting sensitive data.
+A lightweight message-processing system built for the AI/ML Engineer Intern assignment. The system processes messages in chronological order, classifies them, extracts useful tasks and events, and detects and protects sensitive information.
 
-## What the system does
+## Project Overview
 
-The system processes messages in chronological order and performs three main tasks:
+The Message Intelligence System processes a collection of messages and converts unstructured message content into structured, explainable results.
 
-1. Classifies each message into one of six categories.
-2. Extracts actionable tasks and meetings/events.
-3. Detects, masks, and assesses sensitive information.
+The system performs three main tasks:
 
-## Message Classification
+1. Message classification
+2. Task and event extraction
+3. Sensitive information detection and masking
 
-Each message is classified as one of:
+The message-processing logic runs locally using Python and rule-based processing. Raw messages are not sent to external AI services.
+
+---
+
+## 1. How does message classification work?
+
+The system classifies every message into one of six categories:
 
 - Action Required
 - Meeting or Event
@@ -21,60 +27,153 @@ Each message is classified as one of:
 - Promotional
 - Sensitive Information
 
-Each classification contains:
+The classification uses a weighted keyword and rule-based approach. Each category has a set of keywords with different weights based on how strongly they indicate that category.
+
+For example, words such as `submit`, `upload`, `deadline`, `required`, `must`, `verify`, and `confirm` provide strong signals for Action Required.
+
+Meeting or Event messages use signals such as `meeting`, `appointment`, `interview`, `webinar`, `conference`, `workshop`, and `scheduled`.
+
+Sensitive information is given priority when potentially sensitive data is detected.
+
+For every message, the system stores:
 
 - Message ID
 - Predicted category
 - Confidence score
-- Reason for the decision
+- Short reason for the classification
 
-The current implementation uses a transparent weighted keyword/rule-based approach. This makes the decisions explainable and easy to inspect.
+The confidence score represents the strength of the rule-based signals. It is not a statistically calibrated machine-learning probability.
 
-## Task and Event Extraction
+---
 
-Messages containing actionable tasks or events are processed to extract:
+## 2. How are tasks and events extracted?
+
+The system identifies messages that contain actionable tasks, reminders, meetings, or events.
+
+Task detection uses action-related keywords such as:
+
+- `submit`
+- `complete`
+- `send`
+- `upload`
+- `reply`
+- `respond`
+- `fill`
+- `register`
+- `apply`
+- `pay`
+- `confirm`
+- `verify`
+- `finish`
+- `prepare`
+- `review`
+- `call`
+
+Event detection uses keywords such as:
+
+- `meeting`
+- `appointment`
+- `interview`
+- `webinar`
+- `conference`
+- `event`
+- `workshop`
+- `seminar`
+- `call`
+
+For detected tasks and events, the system extracts:
 
 - Item ID
 - Type
 - Title
 - Description
-- Date/deadline
+- Date or deadline
 - Time
 - Person involved
 - Priority
 - Source message ID
 
-The system does not invent missing information. When information cannot be confidently identified, it remains unresolved/empty.
+The system also extracts common date and time formats when they are explicitly present.
 
-## Sensitive Information Detection
+Missing information is not guessed. If a date, time, person, or deadline cannot be confidently identified, it remains unresolved or `null`.
 
-The system checks messages for potentially sensitive information such as:
+Priority is determined using explicit signals. Words such as `urgent`, `ASAP`, `immediately`, `critical`, `deadline`, and `must` indicate high priority, while phrases such as `optional`, `no rush`, and `when you get a chance` indicate low priority. Other cases are assigned medium priority.
 
-- OTPs
+---
+
+## 3. How is sensitive information detected and masked?
+
+Sensitive information is detected locally using predefined patterns and regular expressions.
+
+The system checks for potentially sensitive information including:
+
+- One-time passwords (OTPs)
 - Passwords
 - PINs
 - Bank account numbers
 - Card numbers
-- CVV
+- CVVs
 - Email addresses
 - Phone numbers
-- Home addresses
+- Addresses
 
-Detected sensitive values are replaced with `[MASKED]` in generated sensitive-information outputs.
+When sensitive information is detected, the value is replaced with `[MASKED]`.
 
-High-risk information is marked with a recommendation such as `do_not_store`.
+For example:
 
-## Project Structure
+`Your OTP is 482913.`
 
-```text
-MESSAGE_CLASSIFICATION/
-├── app/
-├── data/
-├── outputs/
-├── src/
-│   ├── main.py
-│   └── inspect_dataset.py
-├── tests/
-├── .gitignore
-├── README.md
-└── requirements.txt
+becomes:
+
+`Your OTP is [MASKED].`
+
+For every detected sensitive message, the system stores:
+
+- Message ID
+- Sensitivity type
+- Risk level
+- Masked version of the message
+- Recommended action
+
+High-risk information such as OTPs, passwords, PINs, bank account numbers, card numbers, and CVVs is assigned a high-risk level and can receive a recommendation such as `do_not_store`.
+
+Sensitive-looking values are not intentionally exposed in logs, screenshots, GitHub, or the video demonstration.
+
+---
+
+## 4. What are the assumptions and limitations?
+
+### Assumptions
+
+- Messages are processed in chronological order.
+- The system uses information explicitly available in each message and does not invent missing details.
+- If a date, time, person, or deadline cannot be confidently identified, it remains unresolved or `null`.
+- Keyword matches are treated as signals rather than complete semantic understanding.
+- Sensitive-information detection is pattern-based and may not identify every possible format of sensitive information.
+- Classification confidence represents the strength of the implemented rule signals and is not a calibrated machine-learning probability.
+
+### Limitations
+
+- Rule-based classification can produce false positives or false negatives when messages use unexpected wording.
+- Keyword-based classification has limited semantic understanding.
+- Sensitive-information detection depends on the patterns implemented in the system.
+- Unusual formats of sensitive information may not be detected.
+- Person extraction may remain unresolved when a person is not clearly identified.
+- Date and time extraction supports common formats but may not correctly interpret every natural-language expression.
+- Confidence scores are rule-based and are not statistically calibrated.
+- A trained machine-learning or NLP model could provide stronger semantic understanding and potentially improve classification and extraction accuracy.
+
+---
+
+## 5. AI Tool Usage Declaration
+
+AI tool were used selectively during development to assist with:
+
+- Error resolution
+- Documentation
+- Project organization
+- Reviewing implementation ideas
+
+The core message-processing logic was implemented as a local, rule-based system.
+
+AI tool were not used to process or classify the supplied dataset, and raw messages were not sent to external AI services.
