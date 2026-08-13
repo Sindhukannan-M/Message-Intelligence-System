@@ -52,7 +52,16 @@ The categories are:
 - Promotional
 - Sensitive Information
 
+For each message, the classification output contains:
+
+- Message ID
+- Predicted category
+- Confidence score
+- Short reason for the classification
+
 Sensitive information takes priority over normal classification.
+
+The confidence score represents the strength of the rule-based signals and is not a calibrated machine-learning probability.
 
 ## 5. Task and Event Extraction
 
