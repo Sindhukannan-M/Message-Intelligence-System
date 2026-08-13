@@ -1,0 +1,16 @@
+message_id,category,confidence,reason
+MSG_0002,action_required,0.95,Detected signals related to action required: review.
+MSG_0007,action_required,0.95,"Detected signals related to action required: reply, please."
+MSG_0001,meeting_or_event,0.71,"Detected signals related to meeting or event: calendar, dinner."
+MSG_0003,meeting_or_event,0.55,Detected signals related to meeting or event: catch-up.
+MSG_0009,general_information,0.45,No strong category-specific signal was detected.
+MSG_0016,general_information,0.45,No strong category-specific signal was detected.
+MSG_0004,general_information,0.45,No strong category-specific signal was detected.
+MSG_0006,general_information,0.45,No strong category-specific signal was detected.
+MSG_0014,promotional,0.95,Detected signals related to promotional: discount.
+MSG_0015,promotional,0.8,Detected signals related to promotional: sale.
+MSG_0005,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0013,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0012,general_information,0.6,Detected signals related to general information: fyi.
+MSG_0024,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0037,action_required,0.95,Detected signals related to action required: review.

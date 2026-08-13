@@ -1,0 +1,51 @@
+message_id,sensitivity_type,risk,masked_text,recommended_action
+MSG_0005,home_address,medium,"Hi, My home address is [MASKED], Chennai-45.",safe_to_process_locally
+MSG_0013,card_number,high,One more thing: My card number is [MASKED].,do_not_store
+MSG_0086,home_address,medium,Use password BlueRiver#[MASKED] account.,safe_to_process_locally
+MSG_0095,home_address,medium,Please note: Use password BlueRiver#29-[MASKED] account.,safe_to_process_locally
+MSG_0130,home_address,medium,"Can you help? My home address is [MASKED], Chennai-85.",safe_to_process_locally
+MSG_0140,home_address,medium,Can you help? Use password BlueRiver#29-[MASKED] account.,safe_to_process_locally
+MSG_0172,home_address,medium,"Important: My home address is [MASKED], Chennai-65.",safe_to_process_locally
+MSG_0199,home_address,medium,"Quick update: My home address is [MASKED], Chennai-25.",safe_to_process_locally
+MSG_0243,one_time_password,high,Just checking—Your [MASKED]-50. It expires in 10 minutes.,do_not_store
+MSG_0254,bank_account,high,For today: Please note my [MASKED]-38.,do_not_store
+MSG_0257,bank_account,high,FYI: Please note my [MASKED]-78.,do_not_store
+MSG_0267,bank_account,high,Please note: Please note my [MASKED]-18.,do_not_store
+MSG_0273,one_time_password,high,Quick update: Your [MASKED]-20. It expires in 10 minutes.,do_not_store
+MSG_0288,one_time_password,high,One more thing: Your [MASKED]-90. It expires in 10 minutes.,do_not_store
+MSG_0344,home_address,medium,"Hi, Use password BlueRiver#29-[MASKED] account.",safe_to_process_locally
+MSG_0346,home_address,medium,Quick update: Use password BlueRiver#29-[MASKED] account.,safe_to_process_locally
+MSG_0352,bank_account,high,Can you help? Please note my [MASKED]-88.,do_not_store
+MSG_0367,card_number,high,"Hi, My card number is [MASKED].",do_not_store
+MSG_0376,home_address,medium,For today: Use password BlueRiver#29-[MASKED] account.,safe_to_process_locally
+MSG_0385,home_address,medium,"My home address is [MASKED], Chennai.",safe_to_process_locally
+MSG_0397,bank_account,high,Just checking—Please note my [MASKED]-58.,do_not_store
+MSG_0419,card_number,high,Quick update: My card number is [MASKED].,do_not_store
+MSG_0471,home_address,medium,FYI: Use password BlueRiver#29-[MASKED] account.,safe_to_process_locally
+MSG_0475,home_address,medium,"Just checking—My home address is [MASKED], Chennai-55.",safe_to_process_locally
+MSG_0532,home_address,medium,"For today: My home address is [MASKED], Chennai-35.",safe_to_process_locally
+MSG_0535,home_address,medium,"Please note: My home address is [MASKED], Chennai-15.",safe_to_process_locally
+MSG_0539,home_address,medium,"FYI: My home address is [MASKED], Chennai-75.",safe_to_process_locally
+MSG_0595,one_time_password,high,Can you help? Your [MASKED]-80. It expires in 10 minutes.,do_not_store
+MSG_0596,one_time_password,high,For today: Your [MASKED]-30. It expires in 10 minutes.,do_not_store
+MSG_0604,one_time_password,high,FYI: Your [MASKED]-70. It expires in 10 minutes.,do_not_store
+MSG_0610,card_number,high,Just checking—My card number is [MASKED].,do_not_store
+MSG_0642,bank_account,high,Important: Please note my [MASKED]-68.,do_not_store
+MSG_0649,card_number,high,Can you help? My card number is [MASKED].,do_not_store
+MSG_0681,card_number,high,Important: My card number is [MASKED].,do_not_store
+MSG_0684,card_number,high,For today: My card number is [MASKED].,do_not_store
+MSG_0727,home_address,medium,Just checking—Use password BlueRiver#29-[MASKED] account.,safe_to_process_locally
+MSG_0749,home_address,medium,Important: Use password BlueRiver#29-[MASKED] account.,safe_to_process_locally
+MSG_0751,bank_account,high,"Hi, Please note my [MASKED]-48.",do_not_store
+MSG_0752,bank_account,high,Please note my [MASKED].,do_not_store
+MSG_0777,home_address,medium,One more thing: Use password BlueRiver#29-[MASKED] account.,safe_to_process_locally
+MSG_0791,one_time_password,high,Please note: Your [MASKED]-10. It expires in 10 minutes.,do_not_store
+MSG_0802,home_address,medium,"One more thing: My home address is [MASKED], Chennai-95.",safe_to_process_locally
+MSG_0803,card_number,high,Please note: My card number is [MASKED].,do_not_store
+MSG_0812,card_number,high,My card number is [MASKED].,do_not_store
+MSG_0813,card_number,high,FYI: My card number is [MASKED].,do_not_store
+MSG_0834,one_time_password,high,Your [MASKED]. It expires in 10 minutes.,do_not_store
+MSG_0848,bank_account,high,Quick update: Please note my [MASKED]-28.,do_not_store
+MSG_0854,one_time_password,high,"Hi, Your [MASKED]-40. It expires in 10 minutes.",do_not_store
+MSG_0880,one_time_password,high,Important: Your [MASKED]-60. It expires in 10 minutes.,do_not_store
+MSG_0890,bank_account,high,One more thing: Please note my [MASKED]-98.,do_not_store

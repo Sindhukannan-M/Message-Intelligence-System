@@ -1,0 +1,901 @@
+message_id,category,confidence,reason
+MSG_0001,meeting_or_event,0.71,"Detected signals related to meeting or event: calendar, dinner."
+MSG_0002,action_required,0.95,Detected signals related to action required: review.
+MSG_0003,meeting_or_event,0.55,Detected signals related to meeting or event: catch-up.
+MSG_0004,general_information,0.45,No strong category-specific signal was detected.
+MSG_0005,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0006,general_information,0.45,No strong category-specific signal was detected.
+MSG_0007,action_required,0.95,"Detected signals related to action required: reply, please."
+MSG_0008,general_information,0.45,No strong category-specific signal was detected.
+MSG_0009,general_information,0.45,No strong category-specific signal was detected.
+MSG_0010,action_required,0.95,"Detected signals related to action required: pay, deadline."
+MSG_0011,meeting_or_event,0.8,Detected signals related to meeting or event: conference.
+MSG_0012,general_information,0.6,Detected signals related to general information: fyi.
+MSG_0013,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0014,promotional,0.95,Detected signals related to promotional: discount.
+MSG_0015,promotional,0.8,Detected signals related to promotional: sale.
+MSG_0016,general_information,0.45,No strong category-specific signal was detected.
+MSG_0017,general_information,0.45,No strong category-specific signal was detected.
+MSG_0018,general_information,0.45,No strong category-specific signal was detected.
+MSG_0019,action_required,0.95,Detected signals related to action required: review.
+MSG_0020,promotional,0.95,Detected signals related to promotional: exclusive.
+MSG_0021,meeting_or_event,0.95,Detected signals related to meeting or event: webinar.
+MSG_0022,general_information,0.45,No strong category-specific signal was detected.
+MSG_0023,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0024,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0025,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0026,general_information,0.95,Detected signals related to general information: update.
+MSG_0027,meeting_or_event,0.62,Detected signals related to meeting or event: interview.
+MSG_0028,action_required,0.95,Detected signals related to action required: deadline.
+MSG_0029,general_information,0.95,Detected signals related to general information: update.
+MSG_0030,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0031,general_information,0.95,Detected signals related to general information: update.
+MSG_0032,action_required,0.95,"Detected signals related to action required: upload, deadline."
+MSG_0033,meeting_or_event,0.95,Detected signals related to meeting or event: event.
+MSG_0034,meeting_or_event,0.8,Detected signals related to meeting or event: conference.
+MSG_0035,action_required,0.95,"Detected signals related to action required: complete, due."
+MSG_0036,action_required,0.7,Detected signals related to action required: please.
+MSG_0037,action_required,0.95,Detected signals related to action required: review.
+MSG_0038,general_information,0.95,Detected signals related to general information: update.
+MSG_0039,general_information,0.45,No strong category-specific signal was detected.
+MSG_0040,general_information,0.45,No strong category-specific signal was detected.
+MSG_0041,meeting_or_event,0.71,Detected signals related to meeting or event: meeting.
+MSG_0042,meeting_or_event,0.95,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0043,meeting_or_event,0.71,"Detected signals related to meeting or event: calendar, dinner."
+MSG_0044,action_required,0.95,"Detected signals related to action required: complete, please."
+MSG_0045,action_required,0.95,"Detected signals related to action required: complete, due."
+MSG_0046,action_required,0.55,Detected signals related to action required: deadline.
+MSG_0047,general_information,0.45,No strong category-specific signal was detected.
+MSG_0048,general_information,0.45,No strong category-specific signal was detected.
+MSG_0049,meeting_or_event,0.95,Detected signals related to meeting or event: scheduled.
+MSG_0050,meeting_or_event,0.95,Detected signals related to meeting or event: webinar.
+MSG_0051,meeting_or_event,0.83,Detected signals related to meeting or event: appointment.
+MSG_0052,general_information,0.95,Detected signals related to general information: update.
+MSG_0053,general_information,0.45,No strong category-specific signal was detected.
+MSG_0054,action_required,0.95,Detected signals related to action required: review.
+MSG_0055,meeting_or_event,0.95,Detected signals related to meeting or event: scheduled.
+MSG_0056,meeting_or_event,0.75,Detected signals related to meeting or event: call.
+MSG_0057,action_required,0.95,"Detected signals related to action required: send, please."
+MSG_0058,action_required,0.55,Detected signals related to action required: review.
+MSG_0059,general_information,0.45,No strong category-specific signal was detected.
+MSG_0060,action_required,0.71,"Detected signals related to action required: complete, due."
+MSG_0061,general_information,0.95,Detected signals related to general information: update.
+MSG_0062,meeting_or_event,0.89,"Detected signals related to meeting or event: conference, workshop."
+MSG_0063,general_information,0.45,No strong category-specific signal was detected.
+MSG_0064,meeting_or_event,0.95,Detected signals related to meeting or event: event.
+MSG_0065,action_required,0.95,Detected signals related to action required: deadline.
+MSG_0066,meeting_or_event,0.8,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0067,meeting_or_event,0.5,Detected signals related to meeting or event: workshop.
+MSG_0068,general_information,0.95,Detected signals related to general information: update.
+MSG_0069,general_information,0.45,No strong category-specific signal was detected.
+MSG_0070,action_required,0.7,Detected signals related to action required: please.
+MSG_0071,general_information,0.95,Detected signals related to general information: update.
+MSG_0072,general_information,0.95,Detected signals related to general information: update.
+MSG_0073,general_information,0.45,No strong category-specific signal was detected.
+MSG_0074,general_information,0.45,No strong category-specific signal was detected.
+MSG_0075,general_information,0.45,No strong category-specific signal was detected.
+MSG_0076,promotional,0.95,Detected signals related to promotional: exclusive.
+MSG_0077,meeting_or_event,0.55,Detected signals related to meeting or event: scheduled.
+MSG_0078,general_information,0.45,No strong category-specific signal was detected.
+MSG_0079,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0080,promotional,0.95,Detected signals related to promotional: sale.
+MSG_0081,promotional,0.95,Detected signals related to promotional: exclusive.
+MSG_0082,general_information,0.45,No strong category-specific signal was detected.
+MSG_0083,general_information,0.45,No strong category-specific signal was detected.
+MSG_0084,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0085,promotional,0.6,Detected signals related to promotional: exclusive.
+MSG_0086,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0087,general_information,0.95,"Detected signals related to general information: fyi, update."
+MSG_0088,general_information,0.45,No strong category-specific signal was detected.
+MSG_0089,action_required,0.55,Detected signals related to action required: deadline.
+MSG_0090,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0091,general_information,0.45,No strong category-specific signal was detected.
+MSG_0092,promotional,0.6,Detected signals related to promotional: offer.
+MSG_0093,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0094,general_information,0.45,No strong category-specific signal was detected.
+MSG_0095,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0096,meeting_or_event,0.67,Detected signals related to meeting or event: event.
+MSG_0097,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0098,action_required,0.55,Detected signals related to action required: review.
+MSG_0099,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0100,general_information,0.7,Detected signals related to general information: reminder.
+MSG_0101,action_required,0.95,Detected signals related to action required: deadline.
+MSG_0102,general_information,0.6,Detected signals related to general information: fyi.
+MSG_0103,meeting_or_event,0.95,Detected signals related to meeting or event: interview.
+MSG_0104,promotional,0.95,Detected signals related to promotional: sale.
+MSG_0105,promotional,0.95,Detected signals related to promotional: offer.
+MSG_0106,general_information,0.95,Detected signals related to general information: update.
+MSG_0107,general_information,0.45,No strong category-specific signal was detected.
+MSG_0108,general_information,0.95,Detected signals related to general information: update.
+MSG_0109,general_information,0.45,No strong category-specific signal was detected.
+MSG_0110,meeting_or_event,0.5,Detected signals related to meeting or event: meeting.
+MSG_0111,general_information,0.6,Detected signals related to general information: fyi.
+MSG_0112,action_required,0.95,Detected signals related to action required: send.
+MSG_0113,action_required,0.6,Detected signals related to action required: due.
+MSG_0114,action_required,0.95,"Detected signals related to action required: complete, please."
+MSG_0115,action_required,0.55,Detected signals related to action required: deadline.
+MSG_0116,general_information,0.95,Detected signals related to general information: update.
+MSG_0117,action_required,0.7,Detected signals related to action required: please.
+MSG_0118,general_information,0.45,No strong category-specific signal was detected.
+MSG_0119,action_required,0.95,"Detected signals related to action required: send, due."
+MSG_0120,action_required,0.7,Detected signals related to action required: please.
+MSG_0121,meeting_or_event,0.75,Detected signals related to meeting or event: call.
+MSG_0122,meeting_or_event,0.8,Detected signals related to meeting or event: catch-up.
+MSG_0123,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0124,meeting_or_event,0.67,Detected signals related to meeting or event: catch-up.
+MSG_0125,general_information,0.45,No strong category-specific signal was detected.
+MSG_0126,general_information,0.45,No strong category-specific signal was detected.
+MSG_0127,meeting_or_event,0.56,Detected signals related to meeting or event: appointment.
+MSG_0128,general_information,0.45,No strong category-specific signal was detected.
+MSG_0129,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0130,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0131,meeting_or_event,0.6,Detected signals related to meeting or event: scheduled.
+MSG_0132,general_information,0.45,No strong category-specific signal was detected.
+MSG_0133,general_information,0.45,No strong category-specific signal was detected.
+MSG_0134,general_information,0.45,No strong category-specific signal was detected.
+MSG_0135,meeting_or_event,0.57,Detected signals related to meeting or event: catch-up.
+MSG_0136,action_required,0.95,Detected signals related to action required: due.
+MSG_0137,general_information,0.45,No strong category-specific signal was detected.
+MSG_0138,meeting_or_event,0.95,Detected signals related to meeting or event: scheduled.
+MSG_0139,general_information,0.95,Detected signals related to general information: update.
+MSG_0140,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0141,meeting_or_event,0.95,Detected signals related to meeting or event: event.
+MSG_0142,promotional,0.95,Detected signals related to promotional: sale.
+MSG_0143,general_information,0.45,No strong category-specific signal was detected.
+MSG_0144,action_required,0.57,"Detected signals related to action required: deadline, please."
+MSG_0145,action_required,0.55,"Detected signals related to action required: complete, please."
+MSG_0146,general_information,0.45,No strong category-specific signal was detected.
+MSG_0147,action_required,0.55,Detected signals related to action required: due.
+MSG_0148,action_required,0.95,Detected signals related to action required: send.
+MSG_0149,meeting_or_event,0.95,Detected signals related to meeting or event: event.
+MSG_0150,action_required,0.55,Detected signals related to action required: deadline.
+MSG_0151,meeting_or_event,0.55,Detected signals related to meeting or event: scheduled.
+MSG_0152,general_information,0.45,No strong category-specific signal was detected.
+MSG_0153,general_information,0.45,No strong category-specific signal was detected.
+MSG_0154,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0155,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0156,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0157,action_required,0.95,Detected signals related to action required: verify.
+MSG_0158,general_information,0.45,No strong category-specific signal was detected.
+MSG_0159,meeting_or_event,0.95,Detected signals related to meeting or event: webinar.
+MSG_0160,action_required,0.95,"Detected signals related to action required: submit, please."
+MSG_0161,general_information,0.45,No strong category-specific signal was detected.
+MSG_0162,action_required,0.7,Detected signals related to action required: please.
+MSG_0163,action_required,0.55,Detected signals related to action required: deadline.
+MSG_0164,general_information,0.45,No strong category-specific signal was detected.
+MSG_0165,general_information,0.45,No strong category-specific signal was detected.
+MSG_0166,general_information,0.45,No strong category-specific signal was detected.
+MSG_0167,promotional,0.95,Detected signals related to promotional: discount.
+MSG_0168,meeting_or_event,0.89,"Detected signals related to meeting or event: conference, workshop."
+MSG_0169,general_information,0.7,Detected signals related to general information: reminder.
+MSG_0170,meeting_or_event,0.45,Detected signals related to meeting or event: meeting.
+MSG_0171,meeting_or_event,0.62,Detected signals related to meeting or event: interview.
+MSG_0172,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0173,action_required,0.95,Detected signals related to action required: review.
+MSG_0174,general_information,0.45,No strong category-specific signal was detected.
+MSG_0175,action_required,0.95,Detected signals related to action required: review.
+MSG_0176,general_information,0.45,No strong category-specific signal was detected.
+MSG_0177,general_information,0.95,"Detected signals related to general information: fyi, reminder."
+MSG_0178,general_information,0.45,No strong category-specific signal was detected.
+MSG_0179,general_information,0.67,Detected signals related to general information: update.
+MSG_0180,general_information,0.45,No strong category-specific signal was detected.
+MSG_0181,general_information,0.95,Detected signals related to general information: update.
+MSG_0182,general_information,0.45,No strong category-specific signal was detected.
+MSG_0183,general_information,0.45,No strong category-specific signal was detected.
+MSG_0184,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0185,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0186,action_required,0.7,Detected signals related to action required: please.
+MSG_0187,general_information,0.45,No strong category-specific signal was detected.
+MSG_0188,general_information,0.95,Detected signals related to general information: update.
+MSG_0189,meeting_or_event,0.62,Detected signals related to meeting or event: meeting.
+MSG_0190,meeting_or_event,0.71,Detected signals related to meeting or event: meeting.
+MSG_0191,general_information,0.95,Detected signals related to general information: update.
+MSG_0192,promotional,0.95,Detected signals related to promotional: offer.
+MSG_0193,meeting_or_event,0.75,Detected signals related to meeting or event: call.
+MSG_0194,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0195,meeting_or_event,0.62,Detected signals related to meeting or event: interview.
+MSG_0196,general_information,0.45,No strong category-specific signal was detected.
+MSG_0197,meeting_or_event,0.8,Detected signals related to meeting or event: event.
+MSG_0198,meeting_or_event,0.71,Detected signals related to meeting or event: meeting.
+MSG_0199,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0200,general_information,0.95,Detected signals related to general information: update.
+MSG_0201,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0202,promotional,0.95,Detected signals related to promotional: cashback.
+MSG_0203,action_required,0.95,Detected signals related to action required: due.
+MSG_0204,meeting_or_event,0.55,Detected signals related to meeting or event: dinner.
+MSG_0205,general_information,0.45,No strong category-specific signal was detected.
+MSG_0206,promotional,0.95,Detected signals related to promotional: coupon.
+MSG_0207,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0208,action_required,0.67,"Detected signals related to action required: submit, please."
+MSG_0209,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0210,general_information,0.45,No strong category-specific signal was detected.
+MSG_0211,general_information,0.45,No strong category-specific signal was detected.
+MSG_0212,general_information,0.45,No strong category-specific signal was detected.
+MSG_0213,general_information,0.6,Detected signals related to general information: fyi.
+MSG_0214,general_information,0.45,No strong category-specific signal was detected.
+MSG_0215,action_required,0.95,Detected signals related to action required: review.
+MSG_0216,meeting_or_event,0.8,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0217,action_required,0.95,"Detected signals related to action required: review, please."
+MSG_0218,general_information,0.7,Detected signals related to general information: reminder.
+MSG_0219,action_required,0.71,"Detected signals related to action required: send, due."
+MSG_0220,meeting_or_event,0.62,Detected signals related to meeting or event: interview.
+MSG_0221,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0222,meeting_or_event,0.8,Detected signals related to meeting or event: conference.
+MSG_0223,action_required,0.7,Detected signals related to action required: please.
+MSG_0224,meeting_or_event,0.95,Detected signals related to meeting or event: event.
+MSG_0225,action_required,0.7,Detected signals related to action required: please.
+MSG_0226,general_information,0.6,Detected signals related to general information: fyi.
+MSG_0227,general_information,0.45,No strong category-specific signal was detected.
+MSG_0228,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0229,general_information,0.45,No strong category-specific signal was detected.
+MSG_0230,general_information,0.45,No strong category-specific signal was detected.
+MSG_0231,action_required,0.55,Detected signals related to action required: send.
+MSG_0232,general_information,0.45,No strong category-specific signal was detected.
+MSG_0233,general_information,0.45,No strong category-specific signal was detected.
+MSG_0234,promotional,0.8,Detected signals related to promotional: coupon.
+MSG_0235,general_information,0.45,No strong category-specific signal was detected.
+MSG_0236,general_information,0.95,Detected signals related to general information: update.
+MSG_0237,promotional,0.95,Detected signals related to promotional: sale.
+MSG_0238,general_information,0.45,No strong category-specific signal was detected.
+MSG_0239,general_information,0.45,No strong category-specific signal was detected.
+MSG_0240,general_information,0.45,No strong category-specific signal was detected.
+MSG_0241,general_information,0.95,Detected signals related to general information: update.
+MSG_0242,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0243,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0244,meeting_or_event,0.8,Detected signals related to meeting or event: workshop.
+MSG_0245,action_required,0.95,"Detected signals related to action required: complete, please."
+MSG_0246,general_information,0.45,No strong category-specific signal was detected.
+MSG_0247,general_information,0.45,No strong category-specific signal was detected.
+MSG_0248,general_information,0.95,Detected signals related to general information: update.
+MSG_0249,meeting_or_event,0.8,Detected signals related to meeting or event: catch-up.
+MSG_0250,meeting_or_event,0.95,Detected signals related to meeting or event: dinner.
+MSG_0251,action_required,0.55,Detected signals related to action required: deadline.
+MSG_0252,general_information,0.95,Detected signals related to general information: update.
+MSG_0253,meeting_or_event,0.95,Detected signals related to meeting or event: webinar.
+MSG_0254,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0255,action_required,0.7,Detected signals related to action required: please.
+MSG_0256,general_information,0.45,No strong category-specific signal was detected.
+MSG_0257,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0258,meeting_or_event,0.95,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0259,general_information,0.45,No strong category-specific signal was detected.
+MSG_0260,action_required,0.7,Detected signals related to action required: please.
+MSG_0261,action_required,0.7,Detected signals related to action required: please.
+MSG_0262,general_information,0.45,No strong category-specific signal was detected.
+MSG_0263,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0264,general_information,0.45,No strong category-specific signal was detected.
+MSG_0265,action_required,0.95,"Detected signals related to action required: pay, deadline."
+MSG_0266,general_information,0.45,No strong category-specific signal was detected.
+MSG_0267,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0268,action_required,0.55,Detected signals related to action required: please.
+MSG_0269,action_required,0.95,"Detected signals related to action required: upload, deadline."
+MSG_0270,general_information,0.45,No strong category-specific signal was detected.
+MSG_0271,action_required,0.95,Detected signals related to action required: review.
+MSG_0272,meeting_or_event,0.95,Detected signals related to meeting or event: dinner.
+MSG_0273,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0274,general_information,0.45,No strong category-specific signal was detected.
+MSG_0275,meeting_or_event,0.55,"Detected signals related to meeting or event: calendar, dinner."
+MSG_0276,general_information,0.95,Detected signals related to general information: update.
+MSG_0277,general_information,0.95,Detected signals related to general information: update.
+MSG_0278,general_information,0.45,No strong category-specific signal was detected.
+MSG_0279,action_required,0.7,Detected signals related to action required: please.
+MSG_0280,meeting_or_event,0.5,Detected signals related to meeting or event: meeting.
+MSG_0281,general_information,0.45,No strong category-specific signal was detected.
+MSG_0282,meeting_or_event,0.83,Detected signals related to meeting or event: interview.
+MSG_0283,action_required,0.55,Detected signals related to action required: deadline.
+MSG_0284,general_information,0.45,No strong category-specific signal was detected.
+MSG_0285,general_information,0.45,No strong category-specific signal was detected.
+MSG_0286,general_information,0.45,No strong category-specific signal was detected.
+MSG_0287,action_required,0.95,"Detected signals related to action required: reply, please."
+MSG_0288,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0289,general_information,0.45,No strong category-specific signal was detected.
+MSG_0290,general_information,0.45,No strong category-specific signal was detected.
+MSG_0291,general_information,0.45,No strong category-specific signal was detected.
+MSG_0292,general_information,0.45,No strong category-specific signal was detected.
+MSG_0293,action_required,0.55,Detected signals related to action required: review.
+MSG_0294,meeting_or_event,0.8,Detected signals related to meeting or event: catch-up.
+MSG_0295,general_information,0.45,No strong category-specific signal was detected.
+MSG_0296,general_information,0.45,No strong category-specific signal was detected.
+MSG_0297,action_required,0.7,Detected signals related to action required: please.
+MSG_0298,general_information,0.45,No strong category-specific signal was detected.
+MSG_0299,general_information,0.45,No strong category-specific signal was detected.
+MSG_0300,general_information,0.95,Detected signals related to general information: update.
+MSG_0301,action_required,0.95,"Detected signals related to action required: reply, please."
+MSG_0302,meeting_or_event,0.95,Detected signals related to meeting or event: scheduled.
+MSG_0303,general_information,0.45,No strong category-specific signal was detected.
+MSG_0304,promotional,0.95,Detected signals related to promotional: exclusive.
+MSG_0305,action_required,0.7,Detected signals related to action required: please.
+MSG_0306,action_required,0.95,"Detected signals related to action required: review, please."
+MSG_0307,action_required,0.95,Detected signals related to action required: send.
+MSG_0308,general_information,0.95,Detected signals related to general information: update.
+MSG_0309,action_required,0.95,Detected signals related to action required: deadline.
+MSG_0310,action_required,0.95,Detected signals related to action required: send.
+MSG_0311,meeting_or_event,0.8,Detected signals related to meeting or event: conference.
+MSG_0312,general_information,0.45,No strong category-specific signal was detected.
+MSG_0313,general_information,0.95,Detected signals related to general information: update.
+MSG_0314,meeting_or_event,0.62,Detected signals related to meeting or event: interview.
+MSG_0315,general_information,0.45,No strong category-specific signal was detected.
+MSG_0316,meeting_or_event,0.62,Detected signals related to meeting or event: interview.
+MSG_0317,action_required,0.95,Detected signals related to action required: send.
+MSG_0318,general_information,0.45,No strong category-specific signal was detected.
+MSG_0319,meeting_or_event,0.71,Detected signals related to meeting or event: meeting.
+MSG_0320,general_information,0.45,No strong category-specific signal was detected.
+MSG_0321,meeting_or_event,0.95,Detected signals related to meeting or event: dinner.
+MSG_0322,general_information,0.95,"Detected signals related to general information: fyi, update."
+MSG_0323,action_required,0.95,Detected signals related to action required: send.
+MSG_0324,general_information,0.45,No strong category-specific signal was detected.
+MSG_0325,general_information,0.45,No strong category-specific signal was detected.
+MSG_0326,general_information,0.95,Detected signals related to general information: update.
+MSG_0327,meeting_or_event,0.95,Detected signals related to meeting or event: seminar.
+MSG_0328,general_information,0.45,No strong category-specific signal was detected.
+MSG_0329,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0330,meeting_or_event,0.8,Detected signals related to meeting or event: workshop.
+MSG_0331,action_required,0.95,"Detected signals related to action required: complete, due."
+MSG_0332,general_information,0.45,No strong category-specific signal was detected.
+MSG_0333,general_information,0.45,No strong category-specific signal was detected.
+MSG_0334,action_required,0.7,Detected signals related to action required: please.
+MSG_0335,meeting_or_event,0.5,Detected signals related to meeting or event: interview.
+MSG_0336,general_information,0.45,No strong category-specific signal was detected.
+MSG_0337,general_information,0.45,No strong category-specific signal was detected.
+MSG_0338,meeting_or_event,0.95,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0339,action_required,0.75,"Detected signals related to action required: pay, deadline."
+MSG_0340,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0341,general_information,0.45,No strong category-specific signal was detected.
+MSG_0342,meeting_or_event,0.95,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0343,general_information,0.45,No strong category-specific signal was detected.
+MSG_0344,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0345,action_required,0.95,"Detected signals related to action required: upload, deadline."
+MSG_0346,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0347,general_information,0.45,No strong category-specific signal was detected.
+MSG_0348,general_information,0.45,No strong category-specific signal was detected.
+MSG_0349,general_information,0.45,No strong category-specific signal was detected.
+MSG_0350,general_information,0.45,No strong category-specific signal was detected.
+MSG_0351,general_information,0.95,Detected signals related to general information: update.
+MSG_0352,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0353,general_information,0.95,Detected signals related to general information: update.
+MSG_0354,general_information,0.45,No strong category-specific signal was detected.
+MSG_0355,meeting_or_event,0.95,Detected signals related to meeting or event: dinner.
+MSG_0356,meeting_or_event,0.73,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0357,meeting_or_event,0.6,Detected signals related to meeting or event: scheduled.
+MSG_0358,action_required,0.95,"Detected signals related to action required: send, due."
+MSG_0359,meeting_or_event,0.95,Detected signals related to meeting or event: interview.
+MSG_0360,action_required,0.95,Detected signals related to action required: verify.
+MSG_0361,action_required,0.95,Detected signals related to action required: due.
+MSG_0362,promotional,0.95,Detected signals related to promotional: cashback.
+MSG_0363,action_required,0.95,Detected signals related to action required: review.
+MSG_0364,promotional,0.95,Detected signals related to promotional: cashback.
+MSG_0365,action_required,0.95,"Detected signals related to action required: reply, please."
+MSG_0366,action_required,0.57,"Detected signals related to action required: reply, please."
+MSG_0367,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0368,action_required,0.95,"Detected signals related to action required: deadline, please."
+MSG_0369,action_required,0.95,"Detected signals related to action required: submit, please."
+MSG_0370,general_information,0.95,Detected signals related to general information: update.
+MSG_0371,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0372,meeting_or_event,0.62,Detected signals related to meeting or event: meeting.
+MSG_0373,action_required,0.7,Detected signals related to action required: please.
+MSG_0374,general_information,0.45,No strong category-specific signal was detected.
+MSG_0375,promotional,0.95,Detected signals related to promotional: cashback.
+MSG_0376,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0377,meeting_or_event,0.71,Detected signals related to meeting or event: meeting.
+MSG_0378,action_required,0.7,Detected signals related to action required: please.
+MSG_0379,action_required,0.95,"Detected signals related to action required: submit, please."
+MSG_0380,action_required,0.7,Detected signals related to action required: please.
+MSG_0381,general_information,0.45,No strong category-specific signal was detected.
+MSG_0382,meeting_or_event,0.6,Detected signals related to meeting or event: scheduled.
+MSG_0383,meeting_or_event,0.95,Detected signals related to meeting or event: webinar.
+MSG_0384,meeting_or_event,0.95,Detected signals related to meeting or event: seminar.
+MSG_0385,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0386,general_information,0.6,Detected signals related to general information: fyi.
+MSG_0387,general_information,0.45,No strong category-specific signal was detected.
+MSG_0388,general_information,0.45,No strong category-specific signal was detected.
+MSG_0389,general_information,0.45,No strong category-specific signal was detected.
+MSG_0390,general_information,0.45,No strong category-specific signal was detected.
+MSG_0391,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0392,general_information,0.45,No strong category-specific signal was detected.
+MSG_0393,action_required,0.55,Detected signals related to action required: send.
+MSG_0394,action_required,0.55,Detected signals related to action required: deadline.
+MSG_0395,general_information,0.45,No strong category-specific signal was detected.
+MSG_0396,action_required,0.95,"Detected signals related to action required: complete, please."
+MSG_0397,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0398,action_required,0.62,"Detected signals related to action required: complete, due."
+MSG_0399,general_information,0.45,No strong category-specific signal was detected.
+MSG_0400,general_information,0.45,No strong category-specific signal was detected.
+MSG_0401,general_information,0.45,No strong category-specific signal was detected.
+MSG_0402,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0403,general_information,0.95,Detected signals related to general information: update.
+MSG_0404,general_information,0.45,No strong category-specific signal was detected.
+MSG_0405,meeting_or_event,0.62,Detected signals related to meeting or event: appointment.
+MSG_0406,general_information,0.45,No strong category-specific signal was detected.
+MSG_0407,action_required,0.95,Detected signals related to action required: send.
+MSG_0408,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0409,promotional,0.6,Detected signals related to promotional: cashback.
+MSG_0410,meeting_or_event,0.75,Detected signals related to meeting or event: call.
+MSG_0411,action_required,0.7,Detected signals related to action required: please.
+MSG_0412,general_information,0.95,Detected signals related to general information: update.
+MSG_0413,meeting_or_event,0.71,Detected signals related to meeting or event: interview.
+MSG_0414,action_required,0.95,Detected signals related to action required: review.
+MSG_0415,general_information,0.45,No strong category-specific signal was detected.
+MSG_0416,action_required,0.7,Detected signals related to action required: please.
+MSG_0417,action_required,0.95,Detected signals related to action required: verify.
+MSG_0418,action_required,0.95,"Detected signals related to action required: reply, please."
+MSG_0419,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0420,action_required,0.95,"Detected signals related to action required: complete, due."
+MSG_0421,general_information,0.45,No strong category-specific signal was detected.
+MSG_0422,action_required,0.6,"Detected signals related to action required: complete, please."
+MSG_0423,meeting_or_event,0.8,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0424,general_information,0.7,Detected signals related to general information: reminder.
+MSG_0425,action_required,0.95,Detected signals related to action required: review.
+MSG_0426,general_information,0.45,No strong category-specific signal was detected.
+MSG_0427,action_required,0.55,"Detected signals related to action required: review, please."
+MSG_0428,general_information,0.45,No strong category-specific signal was detected.
+MSG_0429,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0430,meeting_or_event,0.5,Detected signals related to meeting or event: conference.
+MSG_0431,meeting_or_event,0.95,Detected signals related to meeting or event: event.
+MSG_0432,promotional,0.95,Detected signals related to promotional: offer.
+MSG_0433,general_information,0.45,No strong category-specific signal was detected.
+MSG_0434,meeting_or_event,0.8,Detected signals related to meeting or event: webinar.
+MSG_0435,meeting_or_event,0.71,"Detected signals related to meeting or event: calendar, dinner."
+MSG_0436,general_information,0.45,No strong category-specific signal was detected.
+MSG_0437,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0438,meeting_or_event,0.75,Detected signals related to meeting or event: call.
+MSG_0439,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0440,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0441,meeting_or_event,0.95,Detected signals related to meeting or event: dinner.
+MSG_0442,general_information,0.45,No strong category-specific signal was detected.
+MSG_0443,general_information,0.45,No strong category-specific signal was detected.
+MSG_0444,general_information,0.95,Detected signals related to general information: update.
+MSG_0445,meeting_or_event,0.95,Detected signals related to meeting or event: interview.
+MSG_0446,general_information,0.45,No strong category-specific signal was detected.
+MSG_0447,promotional,0.95,Detected signals related to promotional: coupon.
+MSG_0448,promotional,0.55,Detected signals related to promotional: exclusive.
+MSG_0449,meeting_or_event,0.89,"Detected signals related to meeting or event: conference, workshop."
+MSG_0450,meeting_or_event,0.95,Detected signals related to meeting or event: seminar.
+MSG_0451,action_required,0.95,"Detected signals related to action required: reply, please."
+MSG_0452,meeting_or_event,0.95,Detected signals related to meeting or event: event.
+MSG_0453,general_information,0.95,Detected signals related to general information: update.
+MSG_0454,promotional,0.67,Detected signals related to promotional: coupon.
+MSG_0455,action_required,0.95,Detected signals related to action required: verify.
+MSG_0456,meeting_or_event,0.95,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0457,meeting_or_event,0.71,Detected signals related to meeting or event: meeting.
+MSG_0458,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0459,general_information,0.45,No strong category-specific signal was detected.
+MSG_0460,action_required,0.55,Detected signals related to action required: send.
+MSG_0461,promotional,0.95,Detected signals related to promotional: sale.
+MSG_0462,action_required,0.95,Detected signals related to action required: review.
+MSG_0463,general_information,0.45,No strong category-specific signal was detected.
+MSG_0464,action_required,0.7,Detected signals related to action required: please.
+MSG_0465,meeting_or_event,0.83,Detected signals related to meeting or event: appointment.
+MSG_0466,general_information,0.45,No strong category-specific signal was detected.
+MSG_0467,action_required,0.95,Detected signals related to action required: review.
+MSG_0468,general_information,0.45,No strong category-specific signal was detected.
+MSG_0469,general_information,0.45,No strong category-specific signal was detected.
+MSG_0470,general_information,0.45,No strong category-specific signal was detected.
+MSG_0471,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0472,general_information,0.45,No strong category-specific signal was detected.
+MSG_0473,action_required,0.95,"Detected signals related to action required: send, due, please."
+MSG_0474,general_information,0.45,No strong category-specific signal was detected.
+MSG_0475,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0476,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0477,general_information,0.45,No strong category-specific signal was detected.
+MSG_0478,general_information,0.45,No strong category-specific signal was detected.
+MSG_0479,meeting_or_event,0.71,"Detected signals related to meeting or event: calendar, dinner."
+MSG_0480,meeting_or_event,0.45,Detected signals related to meeting or event: interview.
+MSG_0481,action_required,0.95,"Detected signals related to action required: review, please."
+MSG_0482,general_information,0.45,No strong category-specific signal was detected.
+MSG_0483,action_required,0.55,Detected signals related to action required: verify.
+MSG_0484,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0485,action_required,0.95,"Detected signals related to action required: send, due."
+MSG_0486,action_required,0.95,Detected signals related to action required: send.
+MSG_0487,action_required,0.95,Detected signals related to action required: review.
+MSG_0488,meeting_or_event,0.8,Detected signals related to meeting or event: catch-up.
+MSG_0489,meeting_or_event,0.83,Detected signals related to meeting or event: meeting.
+MSG_0490,general_information,0.95,Detected signals related to general information: update.
+MSG_0491,general_information,0.95,Detected signals related to general information: update.
+MSG_0492,action_required,0.95,"Detected signals related to action required: send, please."
+MSG_0493,action_required,0.95,Detected signals related to action required: review.
+MSG_0494,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0495,meeting_or_event,0.5,Detected signals related to meeting or event: call.
+MSG_0496,general_information,0.95,Detected signals related to general information: update.
+MSG_0497,promotional,0.95,Detected signals related to promotional: exclusive.
+MSG_0498,action_required,0.95,"Detected signals related to action required: upload, deadline, please."
+MSG_0499,promotional,0.95,Detected signals related to promotional: cashback.
+MSG_0500,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0501,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0502,general_information,0.45,No strong category-specific signal was detected.
+MSG_0503,action_required,0.55,Detected signals related to action required: deadline.
+MSG_0504,general_information,0.45,No strong category-specific signal was detected.
+MSG_0505,action_required,0.95,Detected signals related to action required: send.
+MSG_0506,general_information,0.95,Detected signals related to general information: update.
+MSG_0507,general_information,0.45,No strong category-specific signal was detected.
+MSG_0508,meeting_or_event,0.5,Detected signals related to meeting or event: conference.
+MSG_0509,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0510,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0511,meeting_or_event,0.83,Detected signals related to meeting or event: appointment.
+MSG_0512,action_required,0.95,"Detected signals related to action required: send, please."
+MSG_0513,action_required,0.95,Detected signals related to action required: due.
+MSG_0514,general_information,0.45,No strong category-specific signal was detected.
+MSG_0515,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0516,action_required,0.7,Detected signals related to action required: please.
+MSG_0517,action_required,0.95,Detected signals related to action required: verify.
+MSG_0518,general_information,0.45,No strong category-specific signal was detected.
+MSG_0519,meeting_or_event,0.95,Detected signals related to meeting or event: seminar.
+MSG_0520,action_required,0.7,Detected signals related to action required: please.
+MSG_0521,general_information,0.45,No strong category-specific signal was detected.
+MSG_0522,meeting_or_event,0.83,Detected signals related to meeting or event: meeting.
+MSG_0523,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0524,meeting_or_event,0.71,Detected signals related to meeting or event: meeting.
+MSG_0525,action_required,0.7,Detected signals related to action required: please.
+MSG_0526,general_information,0.45,No strong category-specific signal was detected.
+MSG_0527,meeting_or_event,0.62,Detected signals related to meeting or event: interview.
+MSG_0528,general_information,0.45,No strong category-specific signal was detected.
+MSG_0529,action_required,0.7,Detected signals related to action required: please.
+MSG_0530,action_required,0.95,"Detected signals related to action required: submit, please."
+MSG_0531,action_required,0.95,"Detected signals related to action required: send, due."
+MSG_0532,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0533,action_required,0.95,Detected signals related to action required: send.
+MSG_0534,general_information,0.45,No strong category-specific signal was detected.
+MSG_0535,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0536,action_required,0.95,"Detected signals related to action required: pay, deadline."
+MSG_0537,action_required,0.95,Detected signals related to action required: review.
+MSG_0538,general_information,0.45,No strong category-specific signal was detected.
+MSG_0539,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0540,general_information,0.45,No strong category-specific signal was detected.
+MSG_0541,general_information,0.45,No strong category-specific signal was detected.
+MSG_0542,general_information,0.45,No strong category-specific signal was detected.
+MSG_0543,general_information,0.95,Detected signals related to general information: update.
+MSG_0544,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0545,general_information,0.45,No strong category-specific signal was detected.
+MSG_0546,action_required,0.95,"Detected signals related to action required: complete, due."
+MSG_0547,action_required,0.95,"Detected signals related to action required: submit, please."
+MSG_0548,promotional,0.95,Detected signals related to promotional: coupon.
+MSG_0549,meeting_or_event,0.8,Detected signals related to meeting or event: conference.
+MSG_0550,general_information,0.45,No strong category-specific signal was detected.
+MSG_0551,action_required,0.95,"Detected signals related to action required: complete, due."
+MSG_0552,action_required,0.95,"Detected signals related to action required: submit, please."
+MSG_0553,action_required,0.7,Detected signals related to action required: please.
+MSG_0554,action_required,0.67,"Detected signals related to action required: upload, deadline."
+MSG_0555,general_information,0.45,No strong category-specific signal was detected.
+MSG_0556,meeting_or_event,0.62,Detected signals related to meeting or event: meeting.
+MSG_0557,meeting_or_event,0.62,Detected signals related to meeting or event: interview.
+MSG_0558,general_information,0.45,No strong category-specific signal was detected.
+MSG_0559,meeting_or_event,0.62,Detected signals related to meeting or event: meeting.
+MSG_0560,general_information,0.45,No strong category-specific signal was detected.
+MSG_0561,action_required,0.95,Detected signals related to action required: due.
+MSG_0562,meeting_or_event,0.57,Detected signals related to meeting or event: event.
+MSG_0563,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0564,general_information,0.95,Detected signals related to general information: update.
+MSG_0565,action_required,0.95,Detected signals related to action required: review.
+MSG_0566,meeting_or_event,0.62,Detected signals related to meeting or event: meeting.
+MSG_0567,promotional,0.95,Detected signals related to promotional: exclusive.
+MSG_0568,general_information,0.45,No strong category-specific signal was detected.
+MSG_0569,general_information,0.6,Detected signals related to general information: fyi.
+MSG_0570,action_required,0.95,Detected signals related to action required: send.
+MSG_0571,general_information,0.95,Detected signals related to general information: update.
+MSG_0572,general_information,0.45,No strong category-specific signal was detected.
+MSG_0573,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0574,general_information,0.95,Detected signals related to general information: update.
+MSG_0575,general_information,0.45,No strong category-specific signal was detected.
+MSG_0576,general_information,0.45,No strong category-specific signal was detected.
+MSG_0577,action_required,0.95,"Detected signals related to action required: complete, please."
+MSG_0578,action_required,0.95,Detected signals related to action required: review.
+MSG_0579,meeting_or_event,0.95,Detected signals related to meeting or event: interview.
+MSG_0580,meeting_or_event,0.71,Detected signals related to meeting or event: meeting.
+MSG_0581,general_information,0.45,No strong category-specific signal was detected.
+MSG_0582,action_required,0.7,Detected signals related to action required: please.
+MSG_0583,action_required,0.7,Detected signals related to action required: please.
+MSG_0584,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0585,action_required,0.95,"Detected signals related to action required: complete, due."
+MSG_0586,promotional,0.55,Detected signals related to promotional: cashback.
+MSG_0587,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0588,meeting_or_event,0.95,Detected signals related to meeting or event: scheduled.
+MSG_0589,general_information,0.45,No strong category-specific signal was detected.
+MSG_0590,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0591,general_information,0.45,No strong category-specific signal was detected.
+MSG_0592,meeting_or_event,0.83,Detected signals related to meeting or event: appointment.
+MSG_0593,general_information,0.45,No strong category-specific signal was detected.
+MSG_0594,promotional,0.75,Detected signals related to promotional: cashback.
+MSG_0595,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0596,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0597,general_information,0.95,Detected signals related to general information: update.
+MSG_0598,general_information,0.45,No strong category-specific signal was detected.
+MSG_0599,promotional,0.95,Detected signals related to promotional: cashback.
+MSG_0600,meeting_or_event,0.95,Detected signals related to meeting or event: seminar.
+MSG_0601,meeting_or_event,0.71,Detected signals related to meeting or event: appointment.
+MSG_0602,general_information,0.45,No strong category-specific signal was detected.
+MSG_0603,meeting_or_event,0.62,"Detected signals related to meeting or event: calendar, dinner."
+MSG_0604,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0605,action_required,0.95,Detected signals related to action required: deadline.
+MSG_0606,meeting_or_event,0.95,Detected signals related to meeting or event: scheduled.
+MSG_0607,action_required,0.95,Detected signals related to action required: verify.
+MSG_0608,promotional,0.95,Detected signals related to promotional: sale.
+MSG_0609,meeting_or_event,0.57,Detected signals related to meeting or event: webinar.
+MSG_0610,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0611,meeting_or_event,0.95,Detected signals related to meeting or event: dinner.
+MSG_0612,action_required,0.95,"Detected signals related to action required: verify, please."
+MSG_0613,action_required,0.7,Detected signals related to action required: please.
+MSG_0614,action_required,0.95,"Detected signals related to action required: pay, deadline."
+MSG_0615,general_information,0.45,No strong category-specific signal was detected.
+MSG_0616,general_information,0.6,Detected signals related to general information: fyi.
+MSG_0617,meeting_or_event,0.62,Detected signals related to meeting or event: interview.
+MSG_0618,action_required,0.7,Detected signals related to action required: please.
+MSG_0619,meeting_or_event,0.75,Detected signals related to meeting or event: scheduled.
+MSG_0620,action_required,0.95,"Detected signals related to action required: pay, deadline."
+MSG_0621,action_required,0.95,Detected signals related to action required: review.
+MSG_0622,general_information,0.95,"Detected signals related to general information: fyi, update."
+MSG_0623,action_required,0.7,Detected signals related to action required: please.
+MSG_0624,action_required,0.95,"Detected signals related to action required: complete, due, please."
+MSG_0625,action_required,0.7,Detected signals related to action required: please.
+MSG_0626,general_information,0.95,Detected signals related to general information: update.
+MSG_0627,general_information,0.45,No strong category-specific signal was detected.
+MSG_0628,meeting_or_event,0.89,"Detected signals related to meeting or event: conference, workshop."
+MSG_0629,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0630,meeting_or_event,0.95,Detected signals related to meeting or event: interview.
+MSG_0631,general_information,0.71,"Detected signals related to general information: fyi, update."
+MSG_0632,meeting_or_event,0.6,Detected signals related to meeting or event: dinner.
+MSG_0633,action_required,0.95,"Detected signals related to action required: upload, deadline."
+MSG_0634,meeting_or_event,0.75,Detected signals related to meeting or event: call.
+MSG_0635,action_required,0.95,Detected signals related to action required: review.
+MSG_0636,general_information,0.45,No strong category-specific signal was detected.
+MSG_0637,meeting_or_event,0.83,Detected signals related to meeting or event: appointment.
+MSG_0638,general_information,0.45,No strong category-specific signal was detected.
+MSG_0639,action_required,0.95,"Detected signals related to action required: submit, please."
+MSG_0640,action_required,0.95,"Detected signals related to action required: upload, deadline."
+MSG_0641,general_information,0.45,No strong category-specific signal was detected.
+MSG_0642,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0643,general_information,0.7,Detected signals related to general information: reminder.
+MSG_0644,general_information,0.45,No strong category-specific signal was detected.
+MSG_0645,general_information,0.95,"Detected signals related to general information: update, reminder."
+MSG_0646,meeting_or_event,0.71,"Detected signals related to meeting or event: calendar, dinner."
+MSG_0647,promotional,0.95,Detected signals related to promotional: offer.
+MSG_0648,meeting_or_event,0.75,Detected signals related to meeting or event: dinner.
+MSG_0649,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0650,promotional,0.57,Detected signals related to promotional: coupon.
+MSG_0651,general_information,0.45,No strong category-specific signal was detected.
+MSG_0652,meeting_or_event,0.62,Detected signals related to meeting or event: meeting.
+MSG_0653,action_required,0.95,Detected signals related to action required: review.
+MSG_0654,action_required,0.95,Detected signals related to action required: send.
+MSG_0655,general_information,0.45,No strong category-specific signal was detected.
+MSG_0656,general_information,0.95,Detected signals related to general information: update.
+MSG_0657,general_information,0.45,No strong category-specific signal was detected.
+MSG_0658,action_required,0.95,Detected signals related to action required: verify.
+MSG_0659,general_information,0.45,No strong category-specific signal was detected.
+MSG_0660,action_required,0.7,Detected signals related to action required: please.
+MSG_0661,general_information,0.45,No strong category-specific signal was detected.
+MSG_0662,action_required,0.95,Detected signals related to action required: send.
+MSG_0663,promotional,0.95,Detected signals related to promotional: discount.
+MSG_0664,general_information,0.7,Detected signals related to general information: reminder.
+MSG_0665,promotional,0.95,Detected signals related to promotional: discount.
+MSG_0666,promotional,0.75,Detected signals related to promotional: offer.
+MSG_0667,action_required,0.95,"Detected signals related to action required: pay, deadline."
+MSG_0668,general_information,0.7,Detected signals related to general information: reminder.
+MSG_0669,meeting_or_event,0.67,Detected signals related to meeting or event: webinar.
+MSG_0670,action_required,0.75,"Detected signals related to action required: upload, deadline."
+MSG_0671,general_information,0.45,No strong category-specific signal was detected.
+MSG_0672,general_information,0.45,No strong category-specific signal was detected.
+MSG_0673,meeting_or_event,0.83,Detected signals related to meeting or event: appointment.
+MSG_0674,meeting_or_event,0.67,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0675,meeting_or_event,0.95,Detected signals related to meeting or event: webinar.
+MSG_0676,general_information,0.45,No strong category-specific signal was detected.
+MSG_0677,general_information,0.45,No strong category-specific signal was detected.
+MSG_0678,general_information,0.45,No strong category-specific signal was detected.
+MSG_0679,general_information,0.45,No strong category-specific signal was detected.
+MSG_0680,promotional,0.95,Detected signals related to promotional: offer.
+MSG_0681,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0682,general_information,0.45,No strong category-specific signal was detected.
+MSG_0683,meeting_or_event,0.8,Detected signals related to meeting or event: conference.
+MSG_0684,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0685,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0686,general_information,0.45,No strong category-specific signal was detected.
+MSG_0687,general_information,0.45,No strong category-specific signal was detected.
+MSG_0688,action_required,0.95,"Detected signals related to action required: upload, deadline."
+MSG_0689,general_information,0.45,No strong category-specific signal was detected.
+MSG_0690,action_required,0.95,Detected signals related to action required: due.
+MSG_0691,general_information,0.45,No strong category-specific signal was detected.
+MSG_0692,action_required,0.95,Detected signals related to action required: send.
+MSG_0693,meeting_or_event,0.8,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0694,action_required,0.95,"Detected signals related to action required: complete, please."
+MSG_0695,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0696,general_information,0.45,No strong category-specific signal was detected.
+MSG_0697,meeting_or_event,0.71,"Detected signals related to meeting or event: calendar, dinner."
+MSG_0698,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0699,promotional,0.95,Detected signals related to promotional: coupon.
+MSG_0700,general_information,0.45,No strong category-specific signal was detected.
+MSG_0701,general_information,0.45,No strong category-specific signal was detected.
+MSG_0702,general_information,0.45,No strong category-specific signal was detected.
+MSG_0703,general_information,0.95,Detected signals related to general information: update.
+MSG_0704,general_information,0.45,No strong category-specific signal was detected.
+MSG_0705,general_information,0.45,No strong category-specific signal was detected.
+MSG_0706,general_information,0.67,Detected signals related to general information: update.
+MSG_0707,meeting_or_event,0.95,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0708,general_information,0.95,Detected signals related to general information: update.
+MSG_0709,general_information,0.45,No strong category-specific signal was detected.
+MSG_0710,general_information,0.45,No strong category-specific signal was detected.
+MSG_0711,meeting_or_event,0.83,Detected signals related to meeting or event: appointment.
+MSG_0712,promotional,0.95,Detected signals related to promotional: discount.
+MSG_0713,meeting_or_event,0.71,Detected signals related to meeting or event: meeting.
+MSG_0714,general_information,0.45,No strong category-specific signal was detected.
+MSG_0715,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0716,meeting_or_event,0.62,Detected signals related to meeting or event: meeting.
+MSG_0717,meeting_or_event,0.55,Detected signals related to meeting or event: call.
+MSG_0718,general_information,0.45,No strong category-specific signal was detected.
+MSG_0719,meeting_or_event,0.8,Detected signals related to meeting or event: catch-up.
+MSG_0720,meeting_or_event,0.62,Detected signals related to meeting or event: meeting.
+MSG_0721,promotional,0.55,Detected signals related to promotional: offer.
+MSG_0722,action_required,0.95,"Detected signals related to action required: send, due."
+MSG_0723,general_information,0.45,No strong category-specific signal was detected.
+MSG_0724,general_information,0.95,Detected signals related to general information: update.
+MSG_0725,action_required,0.95,Detected signals related to action required: send.
+MSG_0726,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0727,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0728,general_information,0.45,No strong category-specific signal was detected.
+MSG_0729,action_required,0.7,Detected signals related to action required: please.
+MSG_0730,action_required,0.95,"Detected signals related to action required: submit, please."
+MSG_0731,general_information,0.45,No strong category-specific signal was detected.
+MSG_0732,general_information,0.95,Detected signals related to general information: update.
+MSG_0733,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0734,action_required,0.7,Detected signals related to action required: please.
+MSG_0735,general_information,0.45,No strong category-specific signal was detected.
+MSG_0736,general_information,0.67,Detected signals related to general information: update.
+MSG_0737,promotional,0.57,Detected signals related to promotional: discount.
+MSG_0738,action_required,0.95,Detected signals related to action required: send.
+MSG_0739,general_information,0.45,No strong category-specific signal was detected.
+MSG_0740,general_information,0.45,No strong category-specific signal was detected.
+MSG_0741,general_information,0.67,Detected signals related to general information: update.
+MSG_0742,general_information,0.45,No strong category-specific signal was detected.
+MSG_0743,action_required,0.95,"Detected signals related to action required: pay, deadline."
+MSG_0744,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0745,meeting_or_event,0.8,Detected signals related to meeting or event: workshop.
+MSG_0746,general_information,0.45,No strong category-specific signal was detected.
+MSG_0747,meeting_or_event,0.73,"Detected signals related to meeting or event: conference, workshop."
+MSG_0748,promotional,0.67,Detected signals related to promotional: sale.
+MSG_0749,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0750,general_information,0.45,No strong category-specific signal was detected.
+MSG_0751,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0752,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0753,general_information,0.45,No strong category-specific signal was detected.
+MSG_0754,action_required,0.95,"Detected signals related to action required: pay, deadline, please."
+MSG_0755,general_information,0.95,Detected signals related to general information: update.
+MSG_0756,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0757,action_required,0.55,Detected signals related to action required: deadline.
+MSG_0758,promotional,0.95,Detected signals related to promotional: cashback.
+MSG_0759,meeting_or_event,0.95,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0760,promotional,0.95,Detected signals related to promotional: offer.
+MSG_0761,action_required,0.95,"Detected signals related to action required: upload, deadline."
+MSG_0762,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0763,action_required,0.7,Detected signals related to action required: please.
+MSG_0764,general_information,0.45,No strong category-specific signal was detected.
+MSG_0765,general_information,0.45,No strong category-specific signal was detected.
+MSG_0766,promotional,0.95,Detected signals related to promotional: discount.
+MSG_0767,promotional,0.95,Detected signals related to promotional: discount.
+MSG_0768,general_information,0.45,No strong category-specific signal was detected.
+MSG_0769,general_information,0.45,No strong category-specific signal was detected.
+MSG_0770,action_required,0.7,Detected signals related to action required: please.
+MSG_0771,action_required,0.95,Detected signals related to action required: send.
+MSG_0772,general_information,0.45,No strong category-specific signal was detected.
+MSG_0773,meeting_or_event,0.95,Detected signals related to meeting or event: meeting.
+MSG_0774,general_information,0.45,No strong category-specific signal was detected.
+MSG_0775,action_required,0.95,Detected signals related to action required: send.
+MSG_0776,action_required,0.62,"Detected signals related to action required: send, due."
+MSG_0777,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0778,general_information,0.45,No strong category-specific signal was detected.
+MSG_0779,action_required,0.95,"Detected signals related to action required: reply, please."
+MSG_0780,action_required,0.95,Detected signals related to action required: send.
+MSG_0781,general_information,0.95,Detected signals related to general information: update.
+MSG_0782,general_information,0.45,No strong category-specific signal was detected.
+MSG_0783,action_required,0.55,Detected signals related to action required: review.
+MSG_0784,action_required,0.67,"Detected signals related to action required: reply, please."
+MSG_0785,action_required,0.7,Detected signals related to action required: please.
+MSG_0786,general_information,0.95,Detected signals related to general information: fyi.
+MSG_0787,meeting_or_event,0.62,Detected signals related to meeting or event: meeting.
+MSG_0788,meeting_or_event,0.6,Detected signals related to meeting or event: scheduled.
+MSG_0789,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0790,general_information,0.95,Detected signals related to general information: update.
+MSG_0791,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0792,meeting_or_event,0.8,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0793,meeting_or_event,0.8,Detected signals related to meeting or event: conference.
+MSG_0794,general_information,0.45,No strong category-specific signal was detected.
+MSG_0795,meeting_or_event,0.62,Detected signals related to meeting or event: meeting.
+MSG_0796,general_information,0.45,No strong category-specific signal was detected.
+MSG_0797,meeting_or_event,0.71,"Detected signals related to meeting or event: calendar, dinner."
+MSG_0798,meeting_or_event,0.95,Detected signals related to meeting or event: seminar.
+MSG_0799,action_required,0.6,Detected signals related to action required: deadline.
+MSG_0800,action_required,0.95,Detected signals related to action required: review.
+MSG_0801,general_information,0.45,No strong category-specific signal was detected.
+MSG_0802,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0803,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0804,general_information,0.45,No strong category-specific signal was detected.
+MSG_0805,promotional,0.95,Detected signals related to promotional: coupon.
+MSG_0806,general_information,0.45,No strong category-specific signal was detected.
+MSG_0807,promotional,0.95,Detected signals related to promotional: coupon.
+MSG_0808,general_information,0.95,Detected signals related to general information: update.
+MSG_0809,action_required,0.67,"Detected signals related to action required: pay, deadline."
+MSG_0810,action_required,0.95,Detected signals related to action required: review.
+MSG_0811,meeting_or_event,0.75,Detected signals related to meeting or event: call.
+MSG_0812,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0813,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0814,action_required,0.95,"Detected signals related to action required: complete, please."
+MSG_0815,action_required,0.95,"Detected signals related to action required: send, due."
+MSG_0816,meeting_or_event,0.56,Detected signals related to meeting or event: meeting.
+MSG_0817,general_information,0.45,No strong category-specific signal was detected.
+MSG_0818,general_information,0.45,No strong category-specific signal was detected.
+MSG_0819,meeting_or_event,0.56,Detected signals related to meeting or event: meeting.
+MSG_0820,action_required,0.7,Detected signals related to action required: please.
+MSG_0821,general_information,0.71,"Detected signals related to general information: fyi, update."
+MSG_0822,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0823,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0824,action_required,0.57,"Detected signals related to action required: submit, please."
+MSG_0825,general_information,0.95,Detected signals related to general information: update.
+MSG_0826,general_information,0.45,No strong category-specific signal was detected.
+MSG_0827,meeting_or_event,0.75,Detected signals related to meeting or event: call.
+MSG_0828,general_information,0.45,No strong category-specific signal was detected.
+MSG_0829,action_required,0.95,Detected signals related to action required: deadline.
+MSG_0830,action_required,0.7,Detected signals related to action required: please.
+MSG_0831,meeting_or_event,0.95,Detected signals related to meeting or event: interview.
+MSG_0832,promotional,0.75,Detected signals related to promotional: exclusive.
+MSG_0833,general_information,0.45,No strong category-specific signal was detected.
+MSG_0834,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0835,promotional,0.57,Detected signals related to promotional: sale.
+MSG_0836,general_information,0.95,Detected signals related to general information: update.
+MSG_0837,meeting_or_event,0.95,Detected signals related to meeting or event: interview.
+MSG_0838,general_information,0.45,No strong category-specific signal was detected.
+MSG_0839,promotional,0.95,Detected signals related to promotional: sale.
+MSG_0840,action_required,0.95,Detected signals related to action required: review.
+MSG_0841,general_information,0.67,Detected signals related to general information: update.
+MSG_0842,promotional,0.95,Detected signals related to promotional: coupon.
+MSG_0843,meeting_or_event,0.95,Detected signals related to meeting or event: webinar.
+MSG_0844,promotional,0.67,Detected signals related to promotional: discount.
+MSG_0845,meeting_or_event,0.71,"Detected signals related to meeting or event: calendar, dinner."
+MSG_0846,general_information,0.95,Detected signals related to general information: update.
+MSG_0847,action_required,0.7,Detected signals related to action required: please.
+MSG_0848,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0849,action_required,0.95,"Detected signals related to action required: review, please."
+MSG_0850,action_required,0.95,Detected signals related to action required: due.
+MSG_0851,action_required,0.95,"Detected signals related to action required: due, please."
+MSG_0852,action_required,0.7,Detected signals related to action required: please.
+MSG_0853,action_required,0.95,"Detected signals related to action required: reply, please."
+MSG_0854,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0855,general_information,0.45,No strong category-specific signal was detected.
+MSG_0856,promotional,0.8,Detected signals related to promotional: discount.
+MSG_0857,general_information,0.45,No strong category-specific signal was detected.
+MSG_0858,general_information,0.45,No strong category-specific signal was detected.
+MSG_0859,action_required,0.95,Detected signals related to action required: send.
+MSG_0860,meeting_or_event,0.8,Detected signals related to meeting or event: seminar.
+MSG_0861,meeting_or_event,0.8,Detected signals related to meeting or event: catch-up.
+MSG_0862,action_required,0.95,Detected signals related to action required: deadline.
+MSG_0863,general_information,0.45,No strong category-specific signal was detected.
+MSG_0864,general_information,0.45,No strong category-specific signal was detected.
+MSG_0865,general_information,0.45,No strong category-specific signal was detected.
+MSG_0866,meeting_or_event,0.8,Detected signals related to meeting or event: catch-up.
+MSG_0867,general_information,0.45,No strong category-specific signal was detected.
+MSG_0868,meeting_or_event,0.95,Detected signals related to meeting or event: scheduled.
+MSG_0869,action_required,0.7,Detected signals related to action required: please.
+MSG_0870,action_required,0.95,"Detected signals related to action required: send, due."
+MSG_0871,meeting_or_event,0.55,Detected signals related to meeting or event: calendar.
+MSG_0872,general_information,0.45,No strong category-specific signal was detected.
+MSG_0873,meeting_or_event,0.8,Detected signals related to meeting or event: conference.
+MSG_0874,general_information,0.45,No strong category-specific signal was detected.
+MSG_0875,general_information,0.45,No strong category-specific signal was detected.
+MSG_0876,meeting_or_event,0.95,Detected signals related to meeting or event: dinner.
+MSG_0877,meeting_or_event,0.95,Detected signals related to meeting or event: seminar.
+MSG_0878,meeting_or_event,0.89,"Detected signals related to meeting or event: meeting, scheduled."
+MSG_0879,action_required,0.95,Detected signals related to action required: send.
+MSG_0880,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0881,promotional,0.95,Detected signals related to promotional: exclusive.
+MSG_0882,meeting_or_event,0.57,Detected signals related to meeting or event: seminar.
+MSG_0883,action_required,0.95,Detected signals related to action required: review.
+MSG_0884,general_information,0.95,Detected signals related to general information: update.
+MSG_0885,general_information,0.45,No strong category-specific signal was detected.
+MSG_0886,action_required,0.95,Detected signals related to action required: review.
+MSG_0887,general_information,0.95,Detected signals related to general information: update.
+MSG_0888,general_information,0.95,Detected signals related to general information: update.
+MSG_0889,general_information,0.45,No strong category-specific signal was detected.
+MSG_0890,sensitive_information,0.98,The message contains potentially sensitive personal or security information.
+MSG_0891,general_information,0.45,No strong category-specific signal was detected.
+MSG_0892,general_information,0.45,No strong category-specific signal was detected.
+MSG_0893,action_required,0.95,Detected signals related to action required: review.
+MSG_0894,action_required,0.95,Detected signals related to action required: review.
+MSG_0895,meeting_or_event,0.8,Detected signals related to meeting or event: workshop.
+MSG_0896,general_information,0.45,No strong category-specific signal was detected.
+MSG_0897,promotional,0.95,Detected signals related to promotional: offer.
+MSG_0898,action_required,0.95,"Detected signals related to action required: complete, please."
+MSG_0899,general_information,0.45,No strong category-specific signal was detected.
+MSG_0900,meeting_or_event,0.67,Detected signals related to meeting or event: seminar.

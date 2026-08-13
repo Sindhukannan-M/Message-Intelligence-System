@@ -1,0 +1,352 @@
+[
+  {
+    "message_id": "MSG_0005",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "Hi, My home address is [MASKED], Chennai-45.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0013",
+    "sensitivity_type": "card_number",
+    "risk": "high",
+    "masked_text": "One more thing: My card number is [MASKED].",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0086",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "Use password BlueRiver#[MASKED] account.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0095",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "Please note: Use password BlueRiver#29-[MASKED] account.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0130",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "Can you help? My home address is [MASKED], Chennai-85.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0140",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "Can you help? Use password BlueRiver#29-[MASKED] account.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0172",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "Important: My home address is [MASKED], Chennai-65.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0199",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "Quick update: My home address is [MASKED], Chennai-25.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0243",
+    "sensitivity_type": "one_time_password",
+    "risk": "high",
+    "masked_text": "Just checking—Your [MASKED]-50. It expires in 10 minutes.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0254",
+    "sensitivity_type": "bank_account",
+    "risk": "high",
+    "masked_text": "For today: Please note my [MASKED]-38.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0257",
+    "sensitivity_type": "bank_account",
+    "risk": "high",
+    "masked_text": "FYI: Please note my [MASKED]-78.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0267",
+    "sensitivity_type": "bank_account",
+    "risk": "high",
+    "masked_text": "Please note: Please note my [MASKED]-18.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0273",
+    "sensitivity_type": "one_time_password",
+    "risk": "high",
+    "masked_text": "Quick update: Your [MASKED]-20. It expires in 10 minutes.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0288",
+    "sensitivity_type": "one_time_password",
+    "risk": "high",
+    "masked_text": "One more thing: Your [MASKED]-90. It expires in 10 minutes.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0344",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "Hi, Use password BlueRiver#29-[MASKED] account.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0346",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "Quick update: Use password BlueRiver#29-[MASKED] account.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0352",
+    "sensitivity_type": "bank_account",
+    "risk": "high",
+    "masked_text": "Can you help? Please note my [MASKED]-88.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0367",
+    "sensitivity_type": "card_number",
+    "risk": "high",
+    "masked_text": "Hi, My card number is [MASKED].",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0376",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "For today: Use password BlueRiver#29-[MASKED] account.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0385",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "My home address is [MASKED], Chennai.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0397",
+    "sensitivity_type": "bank_account",
+    "risk": "high",
+    "masked_text": "Just checking—Please note my [MASKED]-58.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0419",
+    "sensitivity_type": "card_number",
+    "risk": "high",
+    "masked_text": "Quick update: My card number is [MASKED].",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0471",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "FYI: Use password BlueRiver#29-[MASKED] account.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0475",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "Just checking—My home address is [MASKED], Chennai-55.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0532",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "For today: My home address is [MASKED], Chennai-35.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0535",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "Please note: My home address is [MASKED], Chennai-15.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0539",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "FYI: My home address is [MASKED], Chennai-75.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0595",
+    "sensitivity_type": "one_time_password",
+    "risk": "high",
+    "masked_text": "Can you help? Your [MASKED]-80. It expires in 10 minutes.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0596",
+    "sensitivity_type": "one_time_password",
+    "risk": "high",
+    "masked_text": "For today: Your [MASKED]-30. It expires in 10 minutes.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0604",
+    "sensitivity_type": "one_time_password",
+    "risk": "high",
+    "masked_text": "FYI: Your [MASKED]-70. It expires in 10 minutes.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0610",
+    "sensitivity_type": "card_number",
+    "risk": "high",
+    "masked_text": "Just checking—My card number is [MASKED].",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0642",
+    "sensitivity_type": "bank_account",
+    "risk": "high",
+    "masked_text": "Important: Please note my [MASKED]-68.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0649",
+    "sensitivity_type": "card_number",
+    "risk": "high",
+    "masked_text": "Can you help? My card number is [MASKED].",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0681",
+    "sensitivity_type": "card_number",
+    "risk": "high",
+    "masked_text": "Important: My card number is [MASKED].",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0684",
+    "sensitivity_type": "card_number",
+    "risk": "high",
+    "masked_text": "For today: My card number is [MASKED].",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0727",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "Just checking—Use password BlueRiver#29-[MASKED] account.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0749",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "Important: Use password BlueRiver#29-[MASKED] account.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0751",
+    "sensitivity_type": "bank_account",
+    "risk": "high",
+    "masked_text": "Hi, Please note my [MASKED]-48.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0752",
+    "sensitivity_type": "bank_account",
+    "risk": "high",
+    "masked_text": "Please note my [MASKED].",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0777",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "One more thing: Use password BlueRiver#29-[MASKED] account.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0791",
+    "sensitivity_type": "one_time_password",
+    "risk": "high",
+    "masked_text": "Please note: Your [MASKED]-10. It expires in 10 minutes.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0802",
+    "sensitivity_type": "home_address",
+    "risk": "medium",
+    "masked_text": "One more thing: My home address is [MASKED], Chennai-95.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "MSG_0803",
+    "sensitivity_type": "card_number",
+    "risk": "high",
+    "masked_text": "Please note: My card number is [MASKED].",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0812",
+    "sensitivity_type": "card_number",
+    "risk": "high",
+    "masked_text": "My card number is [MASKED].",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0813",
+    "sensitivity_type": "card_number",
+    "risk": "high",
+    "masked_text": "FYI: My card number is [MASKED].",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0834",
+    "sensitivity_type": "one_time_password",
+    "risk": "high",
+    "masked_text": "Your [MASKED]. It expires in 10 minutes.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0848",
+    "sensitivity_type": "bank_account",
+    "risk": "high",
+    "masked_text": "Quick update: Please note my [MASKED]-28.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0854",
+    "sensitivity_type": "one_time_password",
+    "risk": "high",
+    "masked_text": "Hi, Your [MASKED]-40. It expires in 10 minutes.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0880",
+    "sensitivity_type": "one_time_password",
+    "risk": "high",
+    "masked_text": "Important: Your [MASKED]-60. It expires in 10 minutes.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "MSG_0890",
+    "sensitivity_type": "bank_account",
+    "risk": "high",
+    "masked_text": "One more thing: Please note my [MASKED]-98.",
+    "recommended_action": "do_not_store"
+  }
+]
