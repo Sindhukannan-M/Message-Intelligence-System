@@ -9,10 +9,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0001",
-    "message_id": "MSG_0001",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -25,10 +26,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0002",
-    "message_id": "MSG_0002",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -41,8 +43,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0003",
-    "message_id": "MSG_0003",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -55,12 +56,15 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0007",
-    "message_id": "MSG_0007",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required, response_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.9,
     "priority_updated": false
   },
   {
@@ -73,10 +77,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0010",
-    "message_id": "MSG_0010",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -89,8 +94,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0011",
-    "message_id": "MSG_0011",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -105,10 +109,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0012",
-    "message_id": "MSG_0012",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -119,12 +124,14 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0019",
-    "message_id": "MSG_0019",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -137,8 +144,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0021",
-    "message_id": "MSG_0021",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -153,8 +159,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0024",
-    "message_id": "MSG_0024",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -167,12 +172,14 @@
     "date_or_deadline": "2026-09-05",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0027",
-    "message_id": "MSG_0027",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required, response_required.",
+    "priority_signals": [
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -183,12 +190,14 @@
     "date_or_deadline": "2026-09-09",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0032",
-    "message_id": "MSG_0032",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -201,8 +210,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0033",
-    "message_id": "MSG_0033",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -217,8 +225,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0034",
-    "message_id": "MSG_0034",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -233,10 +240,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0035",
-    "message_id": "MSG_0035",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -249,10 +257,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0037",
-    "message_id": "MSG_0037",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -265,10 +274,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0041",
-    "message_id": "MSG_0041",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -281,8 +291,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0042",
-    "message_id": "MSG_0042",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -295,12 +304,14 @@
     "date_or_deadline": "2026-09-04",
     "time": "11:00",
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0043",
-    "message_id": "MSG_0043",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -313,10 +324,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0044",
-    "message_id": "MSG_0044",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -329,10 +341,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0045",
-    "message_id": "MSG_0045",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -345,10 +358,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0046",
-    "message_id": "MSG_0046",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -359,12 +373,13 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0050",
-    "message_id": "MSG_0050",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language.",
+    "priority_signals": [
+      "high_urgency_language"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -375,12 +390,13 @@
     "date_or_deadline": "2026-09-16",
     "time": "15:00",
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0051",
-    "message_id": "MSG_0051",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language.",
+    "priority_signals": [
+      "high_urgency_language"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -393,10 +409,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0054",
-    "message_id": "MSG_0054",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -409,10 +426,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0056",
-    "message_id": "MSG_0056",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -425,10 +443,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0057",
-    "message_id": "MSG_0057",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -439,12 +458,14 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0058",
-    "message_id": "MSG_0058",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -457,10 +478,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0060",
-    "message_id": "MSG_0060",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -473,8 +495,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0062",
-    "message_id": "MSG_0062",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -489,8 +510,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0064",
-    "message_id": "MSG_0064",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -503,12 +523,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0066",
-    "message_id": "MSG_0066",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -521,8 +543,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0067",
-    "message_id": "MSG_0067",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -537,8 +558,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0084",
-    "message_id": "MSG_0084",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -553,10 +573,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0088",
-    "message_id": "MSG_0088",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -567,12 +588,14 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0089",
-    "message_id": "MSG_0089",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -585,10 +608,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0096",
-    "message_id": "MSG_0096",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -601,10 +625,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0098",
-    "message_id": "MSG_0098",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -617,10 +642,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0102",
-    "message_id": "MSG_0102",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -631,12 +657,13 @@
     "date_or_deadline": "2026-09-05",
     "time": "16:00",
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0103",
-    "message_id": "MSG_0103",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language.",
+    "priority_signals": [
+      "high_urgency_language"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -649,10 +676,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0110",
-    "message_id": "MSG_0110",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -665,10 +693,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0111",
-    "message_id": "MSG_0111",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -679,12 +708,14 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0112",
-    "message_id": "MSG_0112",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -697,10 +728,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0113",
-    "message_id": "MSG_0113",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -713,10 +745,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0114",
-    "message_id": "MSG_0114",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -729,10 +762,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0115",
-    "message_id": "MSG_0115",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -745,10 +779,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0119",
-    "message_id": "MSG_0119",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -761,10 +796,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0121",
-    "message_id": "MSG_0121",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -777,8 +813,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0122",
-    "message_id": "MSG_0122",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -793,8 +828,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0124",
-    "message_id": "MSG_0124",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -809,8 +843,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0127",
-    "message_id": "MSG_0127",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -825,10 +858,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0131",
-    "message_id": "MSG_0131",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -841,10 +875,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0135",
-    "message_id": "MSG_0135",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -857,10 +892,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0136",
-    "message_id": "MSG_0136",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -873,8 +909,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0141",
-    "message_id": "MSG_0141",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -889,10 +924,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0144",
-    "message_id": "MSG_0144",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -905,10 +941,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0145",
-    "message_id": "MSG_0145",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -921,10 +958,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0147",
-    "message_id": "MSG_0147",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -937,10 +975,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0148",
-    "message_id": "MSG_0148",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -953,8 +992,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0149",
-    "message_id": "MSG_0149",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -967,12 +1005,14 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0150",
-    "message_id": "MSG_0150",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -985,10 +1025,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0151",
-    "message_id": "MSG_0151",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1001,10 +1042,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0153",
-    "message_id": "MSG_0153",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1017,10 +1059,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0157",
-    "message_id": "MSG_0157",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1033,8 +1076,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0159",
-    "message_id": "MSG_0159",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1047,12 +1089,14 @@
     "date_or_deadline": "2026-09-05",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0160",
-    "message_id": "MSG_0160",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1065,10 +1109,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0163",
-    "message_id": "MSG_0163",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1081,8 +1126,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0168",
-    "message_id": "MSG_0168",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1097,8 +1141,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0170",
-    "message_id": "MSG_0170",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1111,12 +1154,14 @@
     "date_or_deadline": "2026-09-09",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0171",
-    "message_id": "MSG_0171",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required, response_required.",
+    "priority_signals": [
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1129,10 +1174,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0173",
-    "message_id": "MSG_0173",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1145,10 +1191,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0175",
-    "message_id": "MSG_0175",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1161,8 +1208,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0189",
-    "message_id": "MSG_0189",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1177,10 +1223,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0190",
-    "message_id": "MSG_0190",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1193,10 +1240,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0193",
-    "message_id": "MSG_0193",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1207,12 +1255,15 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0195",
-    "message_id": "MSG_0195",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required, response_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.9,
     "priority_updated": false
   },
   {
@@ -1225,8 +1276,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0197",
-    "message_id": "MSG_0197",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1241,10 +1291,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0198",
-    "message_id": "MSG_0198",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1257,10 +1308,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0203",
-    "message_id": "MSG_0203",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1273,8 +1325,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0204",
-    "message_id": "MSG_0204",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1289,10 +1340,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0208",
-    "message_id": "MSG_0208",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1305,10 +1357,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0210",
-    "message_id": "MSG_0210",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1321,10 +1374,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0213",
-    "message_id": "MSG_0213",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1337,10 +1391,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0215",
-    "message_id": "MSG_0215",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1351,12 +1406,14 @@
     "date_or_deadline": "2026-09-12",
     "time": "11:00",
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0216",
-    "message_id": "MSG_0216",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1369,10 +1426,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0217",
-    "message_id": "MSG_0217",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1385,10 +1443,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0219",
-    "message_id": "MSG_0219",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1399,12 +1458,15 @@
     "date_or_deadline": "2026-09-06",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "high",
     "source_message_id": "MSG_0220",
-    "message_id": "MSG_0220",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required, response_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.9,
     "priority_updated": false
   },
   {
@@ -1415,12 +1477,14 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0221",
-    "message_id": "MSG_0221",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1433,8 +1497,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0222",
-    "message_id": "MSG_0222",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1449,8 +1512,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0224",
-    "message_id": "MSG_0224",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1463,12 +1525,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0226",
-    "message_id": "MSG_0226",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1481,8 +1545,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0228",
-    "message_id": "MSG_0228",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1497,10 +1560,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0231",
-    "message_id": "MSG_0231",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1513,10 +1577,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0244",
-    "message_id": "MSG_0244",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days.",
+    "priority_signals": [
+      "deadline_within_14_days"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1529,10 +1594,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0245",
-    "message_id": "MSG_0245",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -1543,12 +1609,13 @@
     "date_or_deadline": "2026-09-21",
     "time": "12:00",
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0249",
-    "message_id": "MSG_0249",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language.",
+    "priority_signals": [
+      "high_urgency_language"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1561,8 +1628,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0250",
-    "message_id": "MSG_0250",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1575,12 +1641,14 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0251",
-    "message_id": "MSG_0251",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1593,8 +1661,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0253",
-    "message_id": "MSG_0253",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1609,10 +1676,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0258",
-    "message_id": "MSG_0258",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days.",
+    "priority_signals": [
+      "deadline_within_14_days"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1625,10 +1693,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0265",
-    "message_id": "MSG_0265",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1639,12 +1708,14 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0269",
-    "message_id": "MSG_0269",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1657,10 +1728,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0271",
-    "message_id": "MSG_0271",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1673,8 +1745,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0272",
-    "message_id": "MSG_0272",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1689,10 +1760,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0275",
-    "message_id": "MSG_0275",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1703,12 +1775,14 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0280",
-    "message_id": "MSG_0280",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1721,8 +1795,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0282",
-    "message_id": "MSG_0282",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1735,12 +1808,14 @@
     "date_or_deadline": "2026-09-06",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0283",
-    "message_id": "MSG_0283",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1751,12 +1826,14 @@
     "date_or_deadline": "2026-09-08",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0287",
-    "message_id": "MSG_0287",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required, response_required.",
+    "priority_signals": [
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1767,12 +1844,15 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "high",
     "source_message_id": "MSG_0289",
-    "message_id": "MSG_0289",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, high_urgency_language, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.9,
     "priority_updated": false
   },
   {
@@ -1785,10 +1865,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0293",
-    "message_id": "MSG_0293",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1801,8 +1882,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0294",
-    "message_id": "MSG_0294",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1815,12 +1895,14 @@
     "date_or_deadline": "2026-09-05",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0301",
-    "message_id": "MSG_0301",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required, response_required.",
+    "priority_signals": [
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1833,10 +1915,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0306",
-    "message_id": "MSG_0306",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1847,12 +1930,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0307",
-    "message_id": "MSG_0307",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1863,12 +1948,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0310",
-    "message_id": "MSG_0310",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1881,8 +1968,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0311",
-    "message_id": "MSG_0311",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1895,12 +1981,15 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0314",
-    "message_id": "MSG_0314",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required, response_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.9,
     "priority_updated": false
   },
   {
@@ -1913,8 +2002,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0316",
-    "message_id": "MSG_0316",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1927,12 +2015,14 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0317",
-    "message_id": "MSG_0317",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1945,10 +2035,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0319",
-    "message_id": "MSG_0319",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -1961,8 +2052,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0321",
-    "message_id": "MSG_0321",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -1975,12 +2065,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0323",
-    "message_id": "MSG_0323",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -1993,8 +2085,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0327",
-    "message_id": "MSG_0327",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2009,10 +2100,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0330",
-    "message_id": "MSG_0330",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days.",
+    "priority_signals": [
+      "deadline_within_14_days"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2025,10 +2117,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0331",
-    "message_id": "MSG_0331",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -2039,12 +2132,14 @@
     "date_or_deadline": "2026-09-07",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0335",
-    "message_id": "MSG_0335",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required, response_required.",
+    "priority_signals": [
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2057,8 +2152,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0338",
-    "message_id": "MSG_0338",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2073,10 +2167,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0339",
-    "message_id": "MSG_0339",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2089,8 +2184,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0342",
-    "message_id": "MSG_0342",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2105,10 +2199,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0345",
-    "message_id": "MSG_0345",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2121,8 +2216,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0355",
-    "message_id": "MSG_0355",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2137,8 +2231,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0356",
-    "message_id": "MSG_0356",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2153,10 +2246,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0357",
-    "message_id": "MSG_0357",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2169,10 +2263,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0358",
-    "message_id": "MSG_0358",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2185,8 +2280,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0359",
-    "message_id": "MSG_0359",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2199,12 +2293,14 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0360",
-    "message_id": "MSG_0360",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2215,12 +2311,14 @@
     "date_or_deadline": "2026-09-08",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0361",
-    "message_id": "MSG_0361",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2233,10 +2331,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0363",
-    "message_id": "MSG_0363",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2247,12 +2346,14 @@
     "date_or_deadline": "2026-09-07",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0365",
-    "message_id": "MSG_0365",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required, response_required.",
+    "priority_signals": [
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2263,12 +2364,15 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0366",
-    "message_id": "MSG_0366",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required, response_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.9,
     "priority_updated": false
   },
   {
@@ -2279,12 +2383,14 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0369",
-    "message_id": "MSG_0369",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2297,8 +2403,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0371",
-    "message_id": "MSG_0371",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2313,8 +2418,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0372",
-    "message_id": "MSG_0372",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2329,10 +2433,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0377",
-    "message_id": "MSG_0377",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2343,12 +2448,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0379",
-    "message_id": "MSG_0379",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2361,10 +2468,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0382",
-    "message_id": "MSG_0382",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2377,8 +2485,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0383",
-    "message_id": "MSG_0383",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2393,8 +2500,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0384",
-    "message_id": "MSG_0384",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2407,12 +2513,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0386",
-    "message_id": "MSG_0386",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2423,12 +2531,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0393",
-    "message_id": "MSG_0393",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2441,10 +2551,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0396",
-    "message_id": "MSG_0396",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -2457,10 +2568,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0398",
-    "message_id": "MSG_0398",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -2473,8 +2585,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0402",
-    "message_id": "MSG_0402",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2489,10 +2600,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0405",
-    "message_id": "MSG_0405",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2503,12 +2615,14 @@
     "date_or_deadline": "2026-09-06",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0407",
-    "message_id": "MSG_0407",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2521,8 +2635,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0408",
-    "message_id": "MSG_0408",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2537,10 +2650,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0410",
-    "message_id": "MSG_0410",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2553,10 +2667,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0413",
-    "message_id": "MSG_0413",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2569,10 +2684,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0414",
-    "message_id": "MSG_0414",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2583,12 +2699,14 @@
     "date_or_deadline": "2026-09-09",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0417",
-    "message_id": "MSG_0417",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2599,12 +2717,14 @@
     "date_or_deadline": "2026-09-09",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0418",
-    "message_id": "MSG_0418",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required, response_required.",
+    "priority_signals": [
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2617,10 +2737,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0420",
-    "message_id": "MSG_0420",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -2633,10 +2754,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0422",
-    "message_id": "MSG_0422",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -2647,12 +2769,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0423",
-    "message_id": "MSG_0423",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2663,12 +2787,14 @@
     "date_or_deadline": "2026-09-08",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0425",
-    "message_id": "MSG_0425",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2681,10 +2807,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0427",
-    "message_id": "MSG_0427",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2697,8 +2824,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0430",
-    "message_id": "MSG_0430",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2713,8 +2839,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0431",
-    "message_id": "MSG_0431",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2729,8 +2854,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0434",
-    "message_id": "MSG_0434",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2745,10 +2869,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0435",
-    "message_id": "MSG_0435",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2761,8 +2886,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0437",
-    "message_id": "MSG_0437",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2777,10 +2901,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0438",
-    "message_id": "MSG_0438",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2793,8 +2918,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0441",
-    "message_id": "MSG_0441",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2809,8 +2933,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0445",
-    "message_id": "MSG_0445",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2823,12 +2946,13 @@
     "date_or_deadline": "2026-09-18",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0449",
-    "message_id": "MSG_0449",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language.",
+    "priority_signals": [
+      "high_urgency_language"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2839,12 +2963,13 @@
     "date_or_deadline": "2026-09-15",
     "time": "14:00",
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0450",
-    "message_id": "MSG_0450",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language.",
+    "priority_signals": [
+      "high_urgency_language"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2855,12 +2980,14 @@
     "date_or_deadline": "2026-09-07",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0451",
-    "message_id": "MSG_0451",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required, response_required.",
+    "priority_signals": [
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -2871,12 +2998,13 @@
     "date_or_deadline": null,
     "time": "9:00 AM",
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0452",
-    "message_id": "MSG_0452",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language.",
+    "priority_signals": [
+      "high_urgency_language"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2889,10 +3017,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0455",
-    "message_id": "MSG_0455",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2905,10 +3034,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0456",
-    "message_id": "MSG_0456",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days.",
+    "priority_signals": [
+      "deadline_within_14_days"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2921,10 +3051,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0457",
-    "message_id": "MSG_0457",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2937,10 +3068,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0460",
-    "message_id": "MSG_0460",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2953,10 +3085,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0462",
-    "message_id": "MSG_0462",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -2969,8 +3102,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0465",
-    "message_id": "MSG_0465",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -2985,10 +3117,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0467",
-    "message_id": "MSG_0467",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3001,10 +3134,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0468",
-    "message_id": "MSG_0468",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3015,12 +3149,14 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0473",
-    "message_id": "MSG_0473",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3033,10 +3169,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0479",
-    "message_id": "MSG_0479",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3047,12 +3184,14 @@
     "date_or_deadline": "2026-09-08",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0480",
-    "message_id": "MSG_0480",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required, response_required.",
+    "priority_signals": [
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3063,12 +3202,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0481",
-    "message_id": "MSG_0481",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3081,10 +3222,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0483",
-    "message_id": "MSG_0483",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3097,10 +3239,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0485",
-    "message_id": "MSG_0485",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3111,12 +3254,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0486",
-    "message_id": "MSG_0486",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3129,10 +3274,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0487",
-    "message_id": "MSG_0487",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3145,8 +3291,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0488",
-    "message_id": "MSG_0488",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3161,8 +3306,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0489",
-    "message_id": "MSG_0489",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3175,12 +3319,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0492",
-    "message_id": "MSG_0492",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3191,12 +3337,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0493",
-    "message_id": "MSG_0493",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3209,10 +3357,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0495",
-    "message_id": "MSG_0495",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3225,10 +3374,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0498",
-    "message_id": "MSG_0498",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3241,8 +3391,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0500",
-    "message_id": "MSG_0500",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3255,12 +3404,13 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0501",
-    "message_id": "MSG_0501",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language.",
+    "priority_signals": [
+      "high_urgency_language"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3273,10 +3423,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0503",
-    "message_id": "MSG_0503",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3287,12 +3438,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0505",
-    "message_id": "MSG_0505",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3305,8 +3458,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0508",
-    "message_id": "MSG_0508",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3321,8 +3473,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0510",
-    "message_id": "MSG_0510",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3337,8 +3488,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0511",
-    "message_id": "MSG_0511",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3353,10 +3503,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0512",
-    "message_id": "MSG_0512",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3367,12 +3518,14 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0513",
-    "message_id": "MSG_0513",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3383,12 +3536,14 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0517",
-    "message_id": "MSG_0517",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3401,8 +3556,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0519",
-    "message_id": "MSG_0519",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3417,8 +3571,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0522",
-    "message_id": "MSG_0522",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3433,10 +3586,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0524",
-    "message_id": "MSG_0524",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3447,12 +3601,14 @@
     "date_or_deadline": "2026-09-10",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0527",
-    "message_id": "MSG_0527",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required, response_required.",
+    "priority_signals": [
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3465,10 +3621,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0530",
-    "message_id": "MSG_0530",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3481,10 +3638,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0531",
-    "message_id": "MSG_0531",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3497,10 +3655,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0533",
-    "message_id": "MSG_0533",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3511,12 +3670,14 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0536",
-    "message_id": "MSG_0536",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3527,12 +3688,14 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0537",
-    "message_id": "MSG_0537",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3545,8 +3708,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0544",
-    "message_id": "MSG_0544",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3561,10 +3723,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0546",
-    "message_id": "MSG_0546",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -3577,10 +3740,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0547",
-    "message_id": "MSG_0547",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3593,8 +3757,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0549",
-    "message_id": "MSG_0549",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3609,10 +3772,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0551",
-    "message_id": "MSG_0551",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -3623,12 +3787,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0552",
-    "message_id": "MSG_0552",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3639,12 +3805,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0554",
-    "message_id": "MSG_0554",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3657,8 +3825,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0556",
-    "message_id": "MSG_0556",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3671,12 +3838,15 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0557",
-    "message_id": "MSG_0557",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required, response_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.9,
     "priority_updated": false
   },
   {
@@ -3689,10 +3859,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0559",
-    "message_id": "MSG_0559",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3703,12 +3874,14 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0561",
-    "message_id": "MSG_0561",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3721,8 +3894,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0562",
-    "message_id": "MSG_0562",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3737,10 +3909,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0565",
-    "message_id": "MSG_0565",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3753,8 +3926,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0566",
-    "message_id": "MSG_0566",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3769,10 +3941,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0569",
-    "message_id": "MSG_0569",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3785,10 +3958,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0570",
-    "message_id": "MSG_0570",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3799,12 +3973,14 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0574",
-    "message_id": "MSG_0574",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3817,10 +3993,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0577",
-    "message_id": "MSG_0577",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -3833,10 +4010,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0578",
-    "message_id": "MSG_0578",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3849,8 +4027,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0579",
-    "message_id": "MSG_0579",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3863,12 +4040,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0580",
-    "message_id": "MSG_0580",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -3881,10 +4060,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0585",
-    "message_id": "MSG_0585",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -3897,8 +4077,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0592",
-    "message_id": "MSG_0592",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3913,8 +4092,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0600",
-    "message_id": "MSG_0600",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3929,8 +4107,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0601",
-    "message_id": "MSG_0601",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -3945,10 +4122,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0602",
-    "message_id": "MSG_0602",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3961,10 +4139,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0603",
-    "message_id": "MSG_0603",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3977,10 +4156,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0607",
-    "message_id": "MSG_0607",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -3993,8 +4173,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0609",
-    "message_id": "MSG_0609",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4009,8 +4188,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0611",
-    "message_id": "MSG_0611",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4025,10 +4203,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0612",
-    "message_id": "MSG_0612",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4039,12 +4218,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0614",
-    "message_id": "MSG_0614",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4057,10 +4238,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0616",
-    "message_id": "MSG_0616",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4071,12 +4253,15 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0617",
-    "message_id": "MSG_0617",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required, response_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.9,
     "priority_updated": false
   },
   {
@@ -4089,10 +4274,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0618",
-    "message_id": "MSG_0618",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4105,10 +4291,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0620",
-    "message_id": "MSG_0620",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4121,10 +4308,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0621",
-    "message_id": "MSG_0621",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4137,10 +4325,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0624",
-    "message_id": "MSG_0624",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -4153,8 +4342,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0628",
-    "message_id": "MSG_0628",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4169,8 +4357,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0629",
-    "message_id": "MSG_0629",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4185,8 +4372,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0630",
-    "message_id": "MSG_0630",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4201,10 +4387,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0632",
-    "message_id": "MSG_0632",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4217,10 +4404,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0633",
-    "message_id": "MSG_0633",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4231,12 +4419,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0634",
-    "message_id": "MSG_0634",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4249,10 +4439,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0635",
-    "message_id": "MSG_0635",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4265,8 +4456,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0637",
-    "message_id": "MSG_0637",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4281,10 +4471,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0639",
-    "message_id": "MSG_0639",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4295,12 +4486,14 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0640",
-    "message_id": "MSG_0640",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4313,10 +4506,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0646",
-    "message_id": "MSG_0646",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4329,8 +4523,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0648",
-    "message_id": "MSG_0648",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4345,8 +4538,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0652",
-    "message_id": "MSG_0652",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4361,10 +4553,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0653",
-    "message_id": "MSG_0653",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4375,12 +4568,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0654",
-    "message_id": "MSG_0654",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4393,10 +4588,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0658",
-    "message_id": "MSG_0658",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4407,12 +4603,14 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0662",
-    "message_id": "MSG_0662",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4423,12 +4621,14 @@
     "date_or_deadline": "2026-09-05",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0667",
-    "message_id": "MSG_0667",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4441,10 +4641,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0669",
-    "message_id": "MSG_0669",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4457,10 +4658,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0670",
-    "message_id": "MSG_0670",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4473,8 +4675,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0673",
-    "message_id": "MSG_0673",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4489,10 +4690,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0674",
-    "message_id": "MSG_0674",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4505,8 +4707,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0675",
-    "message_id": "MSG_0675",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4521,8 +4722,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0683",
-    "message_id": "MSG_0683",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4537,8 +4737,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0685",
-    "message_id": "MSG_0685",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4553,10 +4752,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0688",
-    "message_id": "MSG_0688",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4567,12 +4767,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0690",
-    "message_id": "MSG_0690",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4583,12 +4785,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0692",
-    "message_id": "MSG_0692",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4599,12 +4803,14 @@
     "date_or_deadline": "2026-09-02",
     "time": "13:00",
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0693",
-    "message_id": "MSG_0693",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4617,10 +4823,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0694",
-    "message_id": "MSG_0694",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -4633,10 +4840,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0697",
-    "message_id": "MSG_0697",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4647,12 +4855,14 @@
     "date_or_deadline": "2026-09-02",
     "time": "13:00",
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0707",
-    "message_id": "MSG_0707",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, high_urgency_language.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "high_urgency_language"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4665,8 +4875,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0711",
-    "message_id": "MSG_0711",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4681,10 +4890,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0713",
-    "message_id": "MSG_0713",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4697,8 +4907,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0716",
-    "message_id": "MSG_0716",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4713,10 +4922,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0717",
-    "message_id": "MSG_0717",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4729,8 +4939,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0719",
-    "message_id": "MSG_0719",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4745,8 +4954,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0720",
-    "message_id": "MSG_0720",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4759,12 +4967,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0722",
-    "message_id": "MSG_0722",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4777,10 +4987,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0725",
-    "message_id": "MSG_0725",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4791,12 +5002,14 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0730",
-    "message_id": "MSG_0730",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4809,10 +5022,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0738",
-    "message_id": "MSG_0738",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4823,12 +5037,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0743",
-    "message_id": "MSG_0743",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4841,10 +5057,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0745",
-    "message_id": "MSG_0745",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days.",
+    "priority_signals": [
+      "deadline_within_14_days"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4857,10 +5074,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0747",
-    "message_id": "MSG_0747",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4871,12 +5089,14 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0754",
-    "message_id": "MSG_0754",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4887,12 +5107,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0757",
-    "message_id": "MSG_0757",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4905,8 +5127,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0759",
-    "message_id": "MSG_0759",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -4921,10 +5142,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0761",
-    "message_id": "MSG_0761",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4937,10 +5159,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0771",
-    "message_id": "MSG_0771",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4951,12 +5174,13 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0773",
-    "message_id": "MSG_0773",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language.",
+    "priority_signals": [
+      "high_urgency_language"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4967,12 +5191,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0775",
-    "message_id": "MSG_0775",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -4985,10 +5211,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0776",
-    "message_id": "MSG_0776",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -4999,12 +5226,14 @@
     "date_or_deadline": "2026-09-06",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0779",
-    "message_id": "MSG_0779",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required, response_required.",
+    "priority_signals": [
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -5017,10 +5246,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0780",
-    "message_id": "MSG_0780",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5033,10 +5263,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0783",
-    "message_id": "MSG_0783",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5047,12 +5278,15 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0784",
-    "message_id": "MSG_0784",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required, response_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.9,
     "priority_updated": false
   },
   {
@@ -5063,12 +5297,14 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0787",
-    "message_id": "MSG_0787",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, high_urgency_language.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "high_urgency_language"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -5079,12 +5315,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0792",
-    "message_id": "MSG_0792",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -5097,8 +5335,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0793",
-    "message_id": "MSG_0793",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -5113,8 +5350,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0795",
-    "message_id": "MSG_0795",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -5127,12 +5363,15 @@
     "date_or_deadline": "2026-09-04",
     "time": "15:00",
     "person": null,
-    "priority": "low",
+    "priority": "high",
     "source_message_id": "MSG_0797",
-    "message_id": "MSG_0797",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, high_urgency_language, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.9,
     "priority_updated": false
   },
   {
@@ -5145,8 +5384,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0798",
-    "message_id": "MSG_0798",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -5161,10 +5399,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0800",
-    "message_id": "MSG_0800",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5177,10 +5416,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0809",
-    "message_id": "MSG_0809",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5193,10 +5433,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0810",
-    "message_id": "MSG_0810",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5209,10 +5450,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0811",
-    "message_id": "MSG_0811",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5225,10 +5467,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0814",
-    "message_id": "MSG_0814",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -5239,12 +5482,15 @@
     "date_or_deadline": "2026-09-04",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "high",
     "source_message_id": "MSG_0815",
-    "message_id": "MSG_0815",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, high_urgency_language, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.9,
     "priority_updated": false
   },
   {
@@ -5257,10 +5503,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0816",
-    "message_id": "MSG_0816",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5273,10 +5520,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0819",
-    "message_id": "MSG_0819",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days.",
+    "priority_signals": [
+      "deadline_within_14_days"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5289,10 +5537,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0824",
-    "message_id": "MSG_0824",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5305,10 +5554,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0826",
-    "message_id": "MSG_0826",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5321,10 +5571,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0827",
-    "message_id": "MSG_0827",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5337,8 +5588,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0831",
-    "message_id": "MSG_0831",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -5353,8 +5603,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0837",
-    "message_id": "MSG_0837",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -5369,10 +5618,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0840",
-    "message_id": "MSG_0840",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5385,8 +5635,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0843",
-    "message_id": "MSG_0843",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -5401,10 +5650,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0845",
-    "message_id": "MSG_0845",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5417,10 +5667,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0849",
-    "message_id": "MSG_0849",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5433,10 +5684,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0850",
-    "message_id": "MSG_0850",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5449,10 +5701,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0851",
-    "message_id": "MSG_0851",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5463,12 +5716,15 @@
     "date_or_deadline": "2026-09-10",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "high",
     "source_message_id": "MSG_0853",
-    "message_id": "MSG_0853",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required, response_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required",
+      "response_required"
+    ],
+    "priority_confidence": 0.9,
     "priority_updated": false
   },
   {
@@ -5479,12 +5735,14 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0859",
-    "message_id": "MSG_0859",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -5497,8 +5755,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0860",
-    "message_id": "MSG_0860",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -5513,8 +5770,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0861",
-    "message_id": "MSG_0861",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -5529,8 +5785,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0866",
-    "message_id": "MSG_0866",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -5545,10 +5800,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0870",
-    "message_id": "MSG_0870",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5561,8 +5817,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0873",
-    "message_id": "MSG_0873",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -5575,12 +5830,13 @@
     "date_or_deadline": null,
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0876",
-    "message_id": "MSG_0876",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language.",
+    "priority_signals": [
+      "high_urgency_language"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5593,8 +5849,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0877",
-    "message_id": "MSG_0877",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -5609,10 +5864,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0878",
-    "message_id": "MSG_0878",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days.",
+    "priority_signals": [
+      "deadline_within_14_days"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5625,10 +5881,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0879",
-    "message_id": "MSG_0879",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5641,8 +5898,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0882",
-    "message_id": "MSG_0882",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -5655,12 +5911,14 @@
     "date_or_deadline": "2026-09-02",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0883",
-    "message_id": "MSG_0883",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -5673,10 +5931,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0886",
-    "message_id": "MSG_0886",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   },
   {
@@ -5687,12 +5946,15 @@
     "date_or_deadline": "2026-09-03",
     "time": null,
     "person": null,
-    "priority": "low",
+    "priority": "high",
     "source_message_id": "MSG_0893",
-    "message_id": "MSG_0893",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: deadline_within_14_days, high_urgency_language, action_required.",
+    "priority_signals": [
+      "deadline_within_14_days",
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.9,
     "priority_updated": false
   },
   {
@@ -5703,12 +5965,14 @@
     "date_or_deadline": "2026-09-20",
     "time": "11:00",
     "person": null,
-    "priority": "low",
+    "priority": "medium",
     "source_message_id": "MSG_0894",
-    "message_id": "MSG_0894",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: high_urgency_language, action_required.",
+    "priority_signals": [
+      "high_urgency_language",
+      "action_required"
+    ],
+    "priority_confidence": 0.82,
     "priority_updated": false
   },
   {
@@ -5721,8 +5985,7 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0895",
-    "message_id": "MSG_0895",
-    "priority_reason": "No strong priority signals were identified.",
+    "priority_reason": "No strong urgency, deadline, response, sensitivity, or action signals were identified.",
     "priority_signals": [],
     "priority_confidence": 0.55,
     "priority_updated": false
@@ -5737,10 +6000,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0898",
-    "message_id": "MSG_0898",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "The task or event has already been completed.",
+    "priority_signals": [
+      "completed"
+    ],
+    "priority_confidence": 0.98,
     "priority_updated": false
   },
   {
@@ -5753,10 +6017,11 @@
     "person": null,
     "priority": "low",
     "source_message_id": "MSG_0900",
-    "message_id": "MSG_0900",
-    "priority_reason": "No strong priority signals were identified.",
-    "priority_signals": [],
-    "priority_confidence": 0.55,
+    "priority_reason": "Priority determined using: action_required.",
+    "priority_signals": [
+      "action_required"
+    ],
+    "priority_confidence": 0.7,
     "priority_updated": false
   }
 ]

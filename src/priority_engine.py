@@ -1,8 +1,176 @@
 from datetime import datetime
 from typing import Optional
 import json
+import re
 from pathlib import Path
 
+
+# ============================================================
+# TEXT SIGNALS
+# ============================================================
+
+URGENT_TERMS = {
+    "urgent",
+    "urgently",
+    "asap",
+    "immediately",
+    "critical",
+    "emergency",
+    "priority",
+}
+
+HIGH_URGENCY_TERMS = {
+    "soon",
+    "important",
+    "high priority",
+}
+
+ACTION_TERMS = {
+    "submit",
+    "complete",
+    "send",
+    "upload",
+    "reply",
+    "respond",
+    "fill",
+    "register",
+    "apply",
+    "pay",
+    "confirm",
+    "verify",
+    "finish",
+    "prepare",
+    "review",
+    "call",
+    "provide",
+    "attach",
+    "update",
+}
+
+RESPONSE_TERMS = {
+    "reply",
+    "respond",
+    "confirm",
+    "confirmation",
+    "let me know",
+    "please respond",
+    "please reply",
+}
+
+HIGH_RISK_TERMS = {
+    "password",
+    "otp",
+    "one-time password",
+    "pin",
+    "cvv",
+    "credit card",
+    "bank account",
+    "authentication",
+    "token",
+}
+
+COMPLETED_TERMS = {
+    "completed",
+    "complete",
+    "finished",
+    "submitted",
+    "uploaded",
+    "done",
+    "successfully submitted",
+}
+
+CANCELLED_TERMS = {
+    "cancelled",
+    "canceled",
+    "cancel",
+}
+
+RESCHEDULED_TERMS = {
+    "rescheduled",
+    "postponed",
+    "moved to",
+    "changed to",
+    "new deadline",
+    "new date",
+}
+
+
+# ============================================================
+# HELPERS
+# ============================================================
+
+def _text(record):
+    """Combine useful text fields from a task/event record."""
+
+    fields = [
+        record.get("title"),
+        record.get("description"),
+        record.get("message"),
+        record.get("category"),
+        record.get("status"),
+        record.get("urgency"),
+    ]
+
+    return " ".join(
+        str(value)
+        for value in fields
+        if value is not None
+    ).lower()
+
+
+def _contains_any(text, terms):
+    """Return matching terms found in text."""
+
+    return [
+        term
+        for term in terms
+        if term in text
+    ]
+
+
+def _parse_date(value):
+    """Parse common date formats safely."""
+
+    if not value:
+        return None
+
+    if isinstance(value, datetime):
+        return value
+
+    value = str(value).strip()
+
+    formats = [
+        "%Y-%m-%d",
+        "%Y/%m/%d",
+        "%d-%m-%Y",
+        "%d/%m/%Y",
+        "%Y-%m-%d %H:%M:%S",
+        "%Y-%m-%d %H:%M",
+    ]
+
+    for fmt in formats:
+
+        try:
+            return datetime.strptime(
+                value,
+                fmt,
+            )
+
+        except ValueError:
+            continue
+
+    try:
+        return datetime.fromisoformat(
+            value
+        )
+
+    except ValueError:
+        return None
+
+
+# ============================================================
+# PRIORITY ENGINE
+# ============================================================
 
 def calculate_priority(
     deadline: Optional[datetime] = None,
@@ -12,193 +180,310 @@ def calculate_priority(
     sensitive: bool = False,
     status: Optional[str] = None,
     now: Optional[datetime] = None,
+    text: str = "",
 ):
     """
-    Calculate priority using multiple signals.
+    Calculate explainable priority using multiple signals.
 
-    Priority considers:
+    Signals include:
     - deadline proximity
-    - urgency
-    - message category
+    - overdue status
+    - urgency language
+    - action-required language
     - response requirement
     - sensitivity
-    - current status
+    - task/event status
+
+    Priority levels:
+    critical, high, medium, low
     """
+
+    now = now or datetime.now()
+
+    text = (text or "").lower()
 
     signals = []
     score = 0
 
     # --------------------------------------------------------
-    # Completed / cancelled items
+    # STATUS
     # --------------------------------------------------------
 
-    if status:
-        status_lower = status.lower()
+    status_text = (
+        str(status).lower()
+        if status
+        else ""
+    )
 
-        if status_lower == "completed":
-            return {
-                "priority": "low",
-                "reason": (
-                    "The task has already been completed."
-                ),
-                "signals": ["completed"],
-                "confidence": 0.98,
-            }
+    completed_match = (
+        status_text in {
+            "completed",
+            "complete",
+            "done",
+            "finished",
+        }
+        or bool(
+            _contains_any(
+                text,
+                COMPLETED_TERMS,
+            )
+        )
+    )
 
-        if status_lower == "cancelled":
-            return {
-                "priority": "low",
-                "reason": (
-                    "The task or event has been cancelled."
-                ),
-                "signals": ["cancelled"],
-                "confidence": 0.98,
-            }
+    cancelled_match = (
+        status_text in {
+            "cancelled",
+            "canceled",
+        }
+        or bool(
+            _contains_any(
+                text,
+                CANCELLED_TERMS,
+            )
+        )
+    )
+
+    if completed_match:
+
+        return {
+            "priority": "low",
+            "reason": (
+                "The task or event has already "
+                "been completed."
+            ),
+            "signals": [
+                "completed"
+            ],
+            "confidence": 0.98,
+        }
+
+    if cancelled_match:
+
+        return {
+            "priority": "low",
+            "reason": (
+                "The task or event has been cancelled."
+            ),
+            "signals": [
+                "cancelled"
+            ],
+            "confidence": 0.98,
+        }
 
     # --------------------------------------------------------
-    # Deadline
+    # DEADLINE
     # --------------------------------------------------------
 
-    if deadline and now:
+    if deadline:
 
         days_remaining = (
-            deadline.date() - now.date()
+            deadline.date()
+            - now.date()
         ).days
 
         if days_remaining < 0:
-            score += 5
-            signals.append("overdue")
+
+            score += 6
+
+            signals.append(
+                "overdue"
+            )
 
         elif days_remaining == 0:
-            score += 5
-            signals.append("deadline_today")
+
+            score += 6
+
+            signals.append(
+                "deadline_today"
+            )
 
         elif days_remaining == 1:
-            score += 4
-            signals.append("deadline_tomorrow")
+
+            score += 5
+
+            signals.append(
+                "deadline_tomorrow"
+            )
 
         elif days_remaining <= 3:
-            score += 3
+
+            score += 4
+
             signals.append(
                 "deadline_within_3_days"
             )
 
         elif days_remaining <= 7:
-            score += 2
+
+            score += 3
+
             signals.append(
                 "deadline_within_7_days"
             )
 
-    # --------------------------------------------------------
-    # Urgency
-    # --------------------------------------------------------
+        elif days_remaining <= 14:
 
-    if urgency:
+            score += 1
 
-        urgency_lower = urgency.lower()
-
-        if urgency_lower in {
-            "critical",
-            "urgent",
-            "immediate",
-        }:
-
-            score += 4
             signals.append(
-                "urgent_language"
-            )
-
-        elif urgency_lower in {
-            "high",
-            "asap",
-        }:
-
-            score += 3
-            signals.append(
-                "high_urgency"
-            )
-
-        elif urgency_lower in {
-            "medium",
-            "soon",
-        }:
-
-            score += 2
-            signals.append(
-                "moderate_urgency"
+                "deadline_within_14_days"
             )
 
     # --------------------------------------------------------
-    # Category
+    # URGENCY FROM ACTUAL MESSAGE TEXT
     # --------------------------------------------------------
+
+    urgent_matches = _contains_any(
+        text,
+        URGENT_TERMS,
+    )
+
+    high_matches = _contains_any(
+        text,
+        HIGH_URGENCY_TERMS,
+    )
+
+    if urgent_matches:
+
+        score += 5
+
+        signals.append(
+            "urgent_language"
+        )
+
+    elif high_matches:
+
+        score += 3
+
+        signals.append(
+            "high_urgency_language"
+        )
+
+    # --------------------------------------------------------
+    # ACTION REQUIRED
+    # --------------------------------------------------------
+
+    action_matches = _contains_any(
+        text,
+        ACTION_TERMS,
+    )
 
     if (
-        category
-        and category.lower()
-        == "action required"
+        action_matches
+        or (
+            category
+            and category.lower()
+            == "action required"
+        )
     ):
 
         score += 2
+
         signals.append(
             "action_required"
         )
 
     # --------------------------------------------------------
-    # Response requirement
+    # RESPONSE REQUIRED
     # --------------------------------------------------------
 
-    if response_required:
+    response_matches = _contains_any(
+        text,
+        RESPONSE_TERMS,
+    )
+
+    if response_required or response_matches:
 
         score += 2
+
         signals.append(
             "response_required"
         )
 
     # --------------------------------------------------------
-    # Sensitivity
+    # SENSITIVE INFORMATION
     # --------------------------------------------------------
 
-    if sensitive:
+    sensitive_matches = _contains_any(
+        text,
+        HIGH_RISK_TERMS,
+    )
+
+    if sensitive or sensitive_matches:
 
         score += 2
+
         signals.append(
             "sensitive_information"
         )
 
     # --------------------------------------------------------
-    # Convert score to priority
+    # RESCHEDULE / CHANGED DEADLINE
     # --------------------------------------------------------
 
-    if score >= 7:
+    rescheduled_matches = _contains_any(
+        text,
+        RESCHEDULED_TERMS,
+    )
+
+    if rescheduled_matches:
+
+        score += 2
+
+        signals.append(
+            "deadline_or_schedule_changed"
+        )
+
+    # --------------------------------------------------------
+    # PRIORITY MAPPING
+    # --------------------------------------------------------
+
+    if score >= 9:
+
         priority = "critical"
 
-    elif score >= 5:
+    elif score >= 6:
+
         priority = "high"
 
     elif score >= 3:
+
         priority = "medium"
 
     else:
+
         priority = "low"
 
     # --------------------------------------------------------
-    # Confidence
+    # CONFIDENCE
     # --------------------------------------------------------
 
-    if len(signals) >= 3:
+    signal_count = len(
+        set(signals)
+    )
+
+    if signal_count >= 4:
+
+        confidence = 0.95
+
+    elif signal_count == 3:
+
         confidence = 0.90
 
-    elif len(signals) == 2:
+    elif signal_count == 2:
+
         confidence = 0.82
 
-    elif len(signals) == 1:
+    elif signal_count == 1:
+
         confidence = 0.70
 
     else:
+
         confidence = 0.55
 
     # --------------------------------------------------------
-    # Reason
+    # EXPLANATION
     # --------------------------------------------------------
 
     if signals:
@@ -212,8 +497,9 @@ def calculate_priority(
     else:
 
         reason = (
-            "No strong priority signals "
-            "were identified."
+            "No strong urgency, deadline, "
+            "response, sensitivity, or action "
+            "signals were identified."
         )
 
     return {
@@ -225,10 +511,12 @@ def calculate_priority(
 
 
 # ============================================================
-# L1 INPUT
+# LOAD L1 RESULTS
 # ============================================================
 
-def load_l1_task_events(file_path: str):
+def load_l1_task_events(
+    file_path: str,
+):
     """Load task/event results generated by L1."""
 
     with open(
@@ -240,6 +528,7 @@ def load_l1_task_events(file_path: str):
         data = json.load(file)
 
     if isinstance(data, list):
+
         return data
 
     if isinstance(data, dict):
@@ -254,7 +543,10 @@ def load_l1_task_events(file_path: str):
 
             if (
                 key in data
-                and isinstance(data[key], list)
+                and isinstance(
+                    data[key],
+                    list,
+                )
             ):
 
                 return data[key]
@@ -266,51 +558,7 @@ def load_l1_task_events(file_path: str):
 
 
 # ============================================================
-# HELPERS
-# ============================================================
-
-def parse_deadline(value):
-    """Safely parse a deadline."""
-
-    if not value:
-        return None
-
-    try:
-
-        return datetime.fromisoformat(
-            str(value)
-        )
-
-    except ValueError:
-
-        return None
-
-
-def get_item_id(record):
-    """
-    Obtain the task/event identifier.
-
-    Existing identifiers are preserved.
-    """
-
-    return (
-        record.get("item_id")
-        or record.get("task_id")
-        or record.get("event_id")
-        or record.get("id")
-        or record.get("message_id")
-    )
-
-
-def get_message_id(record):
-    return (
-        record.get("message_id")
-        or record.get("source_message_id")
-    )
-
-
-# ============================================================
-# PRIORITY PROCESSING
+# PROCESS PRIORITIES
 # ============================================================
 
 def process_l1_priorities(
@@ -318,93 +566,44 @@ def process_l1_priorities(
     output_file: str,
     now: Optional[datetime] = None,
 ):
-
     """
-    Apply priority processing to L1/L2 task-event records.
-
-    Records are processed chronologically.
-
-    When multiple messages refer to the same item, the latest
-    available status, deadline, urgency, and priority signals
-    are carried forward.
+    Apply priority reasoning to every L1
+    task/event record.
     """
 
     records = load_l1_task_events(
         input_file
     )
 
-    # --------------------------------------------------------
-    # Preserve chronological order
-    # --------------------------------------------------------
-
-    def timestamp_value(record):
-
-        value = (
-            record.get("timestamp")
-            or record.get("created_at")
-            or record.get("date")
-        )
-
-        if not value:
-            return datetime.min
-
-        try:
-            return datetime.fromisoformat(
-                str(value)
-            )
-
-        except ValueError:
-
-            return datetime.min
-
-    records = sorted(
-        records,
-        key=timestamp_value,
-    )
-
-    # Current state for each task/event.
-    item_state = {}
-
     processed = []
 
-    reference_now = (
+    current_time = (
         now or datetime.now()
     )
 
-    # --------------------------------------------------------
-    # Process chronologically
-    # --------------------------------------------------------
-
     for record in records:
 
-        item_id = get_item_id(
-            record
-        )
-
-        message_id = get_message_id(
-            record
-        )
-
-        previous_state = (
-            item_state.get(item_id, {})
-        )
-
         # ----------------------------------------------------
-        # Read current message values
+        # Gather available information
         # ----------------------------------------------------
 
         deadline_value = (
             record.get("deadline")
             or record.get("date")
             or record.get("due_date")
+            or record.get("date_or_deadline")
         )
 
-        urgency = record.get(
-            "urgency"
+        deadline = _parse_date(
+            deadline_value
         )
 
         category = record.get(
             "category"
+        )
+
+        urgency = record.get(
+            "urgency"
         )
 
         status = record.get(
@@ -429,250 +628,70 @@ def process_l1_priorities(
             )
         )
 
-        # ----------------------------------------------------
-        # Carry forward previous state when appropriate
-        # ----------------------------------------------------
+        # IMPORTANT:
+        # Build text from the actual record.
+        # This fixes the previous problem where
+        # urgency/action signals were missing.
 
-        if not deadline_value:
-
-            deadline_value = (
-                previous_state.get(
-                    "deadline"
-                )
-            )
-
-        if not urgency:
-
-            urgency = (
-                previous_state.get(
-                    "urgency"
-                )
-            )
-
-        if not category:
-
-            category = (
-                previous_state.get(
-                    "category"
-                )
-            )
-
-        if not status:
-
-            status = (
-                previous_state.get(
-                    "status"
-                )
-            )
-
-        if not response_required:
-
-            response_required = (
-                previous_state.get(
-                    "response_required",
-                    False,
-                )
-            )
-
-        if not sensitive:
-
-            sensitive = (
-                previous_state.get(
-                    "sensitive",
-                    False,
-                )
-            )
-
-        # ----------------------------------------------------
-        # Calculate current priority
-        # ----------------------------------------------------
-
-        deadline = parse_deadline(
-            deadline_value
-        )
-
-        priority_result = (
-            calculate_priority(
-                deadline=deadline,
-                urgency=urgency,
-                category=category,
-                response_required=(
-                    response_required
-                ),
-                sensitive=sensitive,
-                status=status,
-                now=reference_now,
-            )
+        record_text = _text(
+            record
         )
 
         # ----------------------------------------------------
-        # Detect updates
+        # Calculate priority
         # ----------------------------------------------------
 
-        update_signals = []
-
-        previous_deadline = (
-            previous_state.get(
-                "deadline"
-            )
+        result = calculate_priority(
+            deadline=deadline,
+            urgency=urgency,
+            category=category,
+            response_required=response_required,
+            sensitive=sensitive,
+            status=status,
+            now=current_time,
+            text=record_text,
         )
-
-        if (
-            previous_deadline
-            and deadline_value
-            and str(previous_deadline)
-            != str(deadline_value)
-        ):
-
-            update_signals.append(
-                "deadline_updated"
-            )
-
-        previous_urgency = (
-            previous_state.get(
-                "urgency"
-            )
-        )
-
-        if (
-            previous_urgency
-            and urgency
-            and str(previous_urgency).lower()
-            != str(urgency).lower()
-        ):
-
-            update_signals.append(
-                "urgency_updated"
-            )
-
-        previous_status = (
-            previous_state.get(
-                "status"
-            )
-        )
-
-        if (
-            previous_status
-            and status
-            and str(previous_status).lower()
-            != str(status).lower()
-        ):
-
-            update_signals.append(
-                "status_updated"
-            )
-
-        # Add update signals to the result.
-        signals = list(
-            priority_result["signals"]
-        )
-
-        for signal in update_signals:
-
-            if signal not in signals:
-
-                signals.append(signal)
 
         # ----------------------------------------------------
-        # Build reason
-        # ----------------------------------------------------
-
-        reason = (
-            priority_result["reason"]
-        )
-
-        if update_signals:
-
-            reason += (
-                " Later chronological "
-                "message updated: "
-                + ", ".join(
-                    update_signals
-                )
-                + "."
-            )
-
-        # ----------------------------------------------------
-        # Build output
+        # Preserve original L1 record
         # ----------------------------------------------------
 
         updated_record = record.copy()
 
-        updated_record["item_id"] = (
-            item_id
-        )
-
-        updated_record["message_id"] = (
-            message_id
-        )
-
         updated_record[
             "priority"
-        ] = priority_result[
+        ] = result[
             "priority"
         ]
 
         updated_record[
             "priority_reason"
-        ] = reason
+        ] = result[
+            "reason"
+        ]
 
         updated_record[
             "priority_signals"
-        ] = signals
+        ] = result[
+            "signals"
+        ]
 
         updated_record[
             "priority_confidence"
-        ] = priority_result[
+        ] = result[
             "confidence"
         ]
 
-        if update_signals:
-
-            updated_record[
-                "priority_updated"
-            ] = True
-
-        else:
-
-            updated_record[
-                "priority_updated"
-            ] = False
+        updated_record[
+            "priority_updated"
+        ] = False
 
         processed.append(
             updated_record
         )
 
-        # ----------------------------------------------------
-        # Save latest state
-        # ----------------------------------------------------
-
-        item_state[item_id] = {
-
-            "deadline": deadline_value,
-
-            "urgency": urgency,
-
-            "category": category,
-
-            "status": status,
-
-            "response_required": (
-                response_required
-            ),
-
-            "sensitive": sensitive,
-
-            "priority": (
-                priority_result[
-                    "priority"
-                ]
-            ),
-
-            "message_id": message_id,
-        }
-
     # --------------------------------------------------------
-    # Save output
+    # Save
     # --------------------------------------------------------
 
     output_path = Path(
@@ -714,11 +733,9 @@ if __name__ == "__main__":
         "l2_outputs/priority_results.json"
     )
 
-    results = (
-        process_l1_priorities(
-            input_file=input_file,
-            output_file=output_file,
-        )
+    results = process_l1_priorities(
+        input_file=input_file,
+        output_file=output_file,
     )
 
     print(
@@ -727,6 +744,6 @@ if __name__ == "__main__":
     )
 
     print(
-        "Priority results saved to: "
+        f"Priority results saved to: "
         f"{output_file}"
     )
