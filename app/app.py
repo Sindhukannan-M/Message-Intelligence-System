@@ -1,4 +1,5 @@
 import sys
+import json
 from pathlib import Path
 
 import pandas as pd
@@ -9,19 +10,19 @@ import streamlit as st
 # PROJECT PATH
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent
 
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 
 # ============================================================
-# PAGE CONFIGURATION
+# PAGE CONFIG
 # ============================================================
 
 st.set_page_config(
-    page_title="Message Intelligence System",
-    page_icon="💬",
+    page_title="L2 Intelligence System",
+    page_icon="🚀",
     layout="wide",
 )
 
@@ -30,32 +31,62 @@ st.set_page_config(
 # PATHS
 # ============================================================
 
-ROOT = PROJECT_ROOT
 OUTPUT_DIR = ROOT / "outputs"
+L2_OUTPUT_DIR = ROOT / "l2_outputs"
 
-L1_DATASET = ROOT / "data" / "l1" / "messages.csv"
-L2_DATASET = ROOT / "data" / "l2" / "l2_messages.csv"
-L2_DEMO_DATASET = (
-    ROOT / "data" / "l2" / "l2_demo_messages.csv"
-)
+
+# ============================================================
+# HELPERS
+# ============================================================
+
+def load_json(filename, default=None):
+
+    path = L2_OUTPUT_DIR / filename
+
+    if not path.exists():
+        return default
+
+    try:
+        with open(
+            path,
+            "r",
+            encoding="utf-8",
+        ) as file:
+            return json.load(file)
+
+    except Exception:
+        return default
+
+
+def json_to_dataframe(data):
+
+    if data is None:
+        return pd.DataFrame()
+
+    if isinstance(data, list):
+        return pd.DataFrame(data)
+
+    if isinstance(data, dict):
+        return pd.DataFrame([data])
+
+    return pd.DataFrame()
 
 
 # ============================================================
 # TITLE
 # ============================================================
 
-st.title("💬 Message Intelligence System")
+st.title("🚀 L2 Intelligence System")
 
 st.write(
-    "L1 + L2 message processing system for "
-    "classification, task extraction, priority analysis, "
-    "related-message grouping, semantic retrieval, "
-    "and privacy-aware routing."
+    "An extension of the L1 Message Intelligence System "
+    "for priority analysis, related-message grouping, "
+    "semantic retrieval, privacy-aware routing, and benchmarking."
 )
 
 
 # ============================================================
-# L1 OUTPUTS
+# LOAD EXISTING L1 OUTPUTS
 # ============================================================
 
 classification_file = (
@@ -76,8 +107,10 @@ mandatory_file = (
 
 
 # ============================================================
-# LOAD EXISTING L1 OUTPUTS
+# L1 SECTION
 # ============================================================
+
+st.header("L1 System")
 
 try:
 
@@ -97,337 +130,245 @@ try:
         mandatory_file
     )
 
+    col1, col2, col3, col4 = st.columns(4)
+
+    with col1:
+        st.metric(
+            "Messages",
+            len(classification_df),
+        )
+
+    with col2:
+        st.metric(
+            "Tasks / Events",
+            len(task_df),
+        )
+
+    with col3:
+        st.metric(
+            "Sensitive Messages",
+            len(sensitive_df),
+        )
+
+    with col4:
+        st.metric(
+            "Mandatory Messages",
+            len(mandatory_df),
+        )
+
 except FileNotFoundError:
 
-    st.error(
-        "Required L1 output files are not available."
-    )
-
     st.info(
-        "The full L1/L2 processing pipeline runs locally "
-        "with the supplied datasets. The hosted application "
-        "requires the generated L1 outputs to be present."
+        "L1 source datasets are intentionally kept "
+        "outside the public repository."
     )
 
-    st.stop()
+
+# ============================================================
+# L2 OUTPUTS
+# ============================================================
+
+st.divider()
+
+st.header("🚀 L2 Processing Results")
+
+
+priority_data = load_json(
+    "priority_results.json",
+    [],
+)
+
+related_data = load_json(
+    "related_groups.json",
+    [],
+)
+
+privacy_data = load_json(
+    "privacy_routing_results.json",
+    [],
+)
+
+benchmark_data = load_json(
+    "benchmark_comparison.json",
+    {},
+)
+
+
+priority_df = json_to_dataframe(
+    priority_data
+)
+
+related_df = json_to_dataframe(
+    related_data
+)
+
+privacy_df = json_to_dataframe(
+    privacy_data
+)
 
 
 # ============================================================
-# DASHBOARD METRICS
+# L2 STATUS
 # ============================================================
 
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3 = st.columns(3)
 
 with col1:
+
     st.metric(
-        "L1 Messages",
-        len(classification_df),
+        "Priority Results",
+        len(priority_df),
     )
 
 with col2:
+
     st.metric(
-        "Tasks / Events",
-        len(task_df),
+        "Related Groups",
+        len(related_df),
     )
 
 with col3:
+
     st.metric(
-        "Sensitive Messages",
-        len(sensitive_df),
-    )
-
-with col4:
-    st.metric(
-        "Mandatory Messages",
-        len(mandatory_df),
-    )
-
-
-st.divider()
-
-
-# ============================================================
-# L1 NAVIGATION
-# ============================================================
-
-section = st.selectbox(
-    "Choose a section",
-    [
-        "Classification",
-        "Tasks & Events",
-        "Sensitive Information",
-        "Mandatory Demo",
-    ],
-)
-
-
-# ============================================================
-# CLASSIFICATION
-# ============================================================
-
-if section == "Classification":
-
-    st.header("Message Classification")
-
-    if "category" in classification_df.columns:
-
-        category_counts = (
-            classification_df["category"]
-            .value_counts()
-        )
-
-        st.subheader("Category Distribution")
-
-        st.bar_chart(category_counts)
-
-    st.subheader("Classification Results")
-
-    st.dataframe(
-        classification_df,
-        use_container_width=True,
-        hide_index=True,
+        "Privacy Decisions",
+        len(privacy_df),
     )
 
 
 # ============================================================
-# TASKS AND EVENTS
+# L2 RESULTS BUTTON
 # ============================================================
 
-elif section == "Tasks & Events":
+st.subheader("L2 Pipeline")
 
-    st.header("Tasks and Events")
+if st.button(
+    "Run L2 Pipeline Results"
+):
 
-    if task_df.empty:
-
-        st.info(
-            "No tasks or events were extracted."
-        )
-
-    else:
-
-        if "priority" in task_df.columns:
-
-            st.subheader(
-                "Priority Distribution"
-            )
-
-            st.bar_chart(
-                task_df["priority"].value_counts()
-            )
-
-        st.subheader(
-            "Extracted Tasks and Events"
-        )
-
-        st.dataframe(
-            task_df,
-            use_container_width=True,
-            hide_index=True,
-        )
-
-
-# ============================================================
-# SENSITIVE INFORMATION
-# ============================================================
-
-elif section == "Sensitive Information":
-
-    st.header(
-        "Sensitive Information"
-    )
-
-    st.warning(
-        "Sensitive values are masked in the output."
-    )
-
-    if sensitive_df.empty:
-
-        st.success(
-            "No sensitive information detected."
-        )
-
-    else:
-
-        st.dataframe(
-            sensitive_df,
-            use_container_width=True,
-            hide_index=True,
-        )
-
-
-# ============================================================
-# MANDATORY DEMO
-# ============================================================
-
-elif section == "Mandatory Demo":
-
-    st.header(
-        "Mandatory 15 Message Demonstration"
-    )
-
-    st.write(
-        "Mandatory demonstration results generated "
-        "by the processing pipeline."
-    )
-
-    st.dataframe(
-        mandatory_df,
-        use_container_width=True,
-        hide_index=True,
-    )
-
-
-# ============================================================
-# L2 SYSTEM
-# ============================================================
-
-st.divider()
-
-st.header(
-    "🚀 L2 Intelligence System"
-)
-
-
-# ------------------------------------------------------------
-# Check whether private datasets are available
-# ------------------------------------------------------------
-
-datasets_available = (
-    L1_DATASET.exists()
-    and L2_DATASET.exists()
-)
-
-demo_dataset_available = (
-    L2_DEMO_DATASET.exists()
-)
-
-
-# ============================================================
-# L2 PIPELINE
-# ============================================================
-
-if datasets_available:
-
-    try:
-
-        from src.l2_pipeline import (
-            run_l2_pipeline,
-        )
-
-        if (
-            "l2_pipeline"
-            not in st.session_state
-        ):
-
-            st.session_state.l2_pipeline = None
-
-        if st.button(
-            "Run L2 Pipeline"
-        ):
-
-            with st.spinner(
-                "Processing L1 + L2 messages..."
-            ):
-
-                st.session_state.l2_pipeline = (
-                    run_l2_pipeline()
-                )
-
-        if (
-            st.session_state.l2_pipeline
-            is not None
-        ):
-
-            pipeline = (
-                st.session_state.l2_pipeline
-            )
-
-            messages = pipeline[
-                "messages"
-            ]
-
-            related_groups = pipeline[
-                "related_groups"
-            ]
-
-            st.success(
-                "L2 pipeline processed successfully."
-            )
-
-            col1, col2, col3 = st.columns(3)
-
-            with col1:
-
-                st.metric(
-                    "L1 Messages",
-                    len(
-                        messages[
-                            messages["source"]
-                            == "L1"
-                        ]
-                    ),
-                )
-
-            with col2:
-
-                st.metric(
-                    "L2 Messages",
-                    len(
-                        messages[
-                            messages["source"]
-                            == "L2"
-                        ]
-                    ),
-                )
-
-            with col3:
-
-                st.metric(
-                    "Related Groups",
-                    len(related_groups),
-                )
-
-            st.subheader(
-                "Related Message Groups"
-            )
-
-            st.dataframe(
-                related_groups,
-                use_container_width=True,
-                hide_index=True,
-            )
-
-    except Exception as error:
+    if (
+        priority_df.empty
+        and related_df.empty
+        and privacy_df.empty
+    ):
 
         st.error(
-            "The L2 pipeline could not be initialized."
+            "L2 result files are not available."
         )
 
-        st.caption(
-            f"Pipeline error: {error}"
+    else:
+
+        st.success(
+            "L2 structured results loaded successfully."
         )
+
+        st.session_state[
+            "l2_loaded"
+        ] = True
+
+
+if st.session_state.get(
+    "l2_loaded",
+    False,
+):
+
+    st.success(
+        "L2 results are ready for demonstration."
+    )
+
+
+# ============================================================
+# PRIORITY
+# ============================================================
+
+st.divider()
+
+st.header("🎯 Priority and Action Engine")
+
+if priority_df.empty:
+
+    st.warning(
+        "Priority results are unavailable."
+    )
 
 else:
 
-    st.info(
-        "The full L2 dataset is available only in "
-        "the local development environment. "
-        "The supplied L1/L2 datasets are intentionally "
-        "not included in the public repository."
+    if "priority" in priority_df.columns:
+
+        st.subheader(
+            "Priority Distribution"
+        )
+
+        st.bar_chart(
+            priority_df[
+                "priority"
+            ].value_counts()
+        )
+
+    display_columns = [
+        "message_id",
+        "item_id",
+        "priority",
+        "priority_reason",
+        "priority_signals",
+        "priority_confidence",
+        "priority_updated",
+    ]
+
+    available = [
+        column
+        for column in display_columns
+        if column in priority_df.columns
+    ]
+
+    st.dataframe(
+        priority_df[available],
+        use_container_width=True,
+        hide_index=True,
     )
 
 
 # ============================================================
-# L2 SEMANTIC SEARCH
+# RELATED MESSAGE GROUPING
 # ============================================================
 
 st.divider()
 
-st.header(
-    "🔎 L2 Semantic Search"
+st.header("🔗 Related-Message Groups")
+
+if related_df.empty:
+
+    st.warning(
+        "Related-message results are unavailable."
+    )
+
+else:
+
+    st.write(
+        "Messages referring to the same task, event, "
+        "request, or subject are represented as groups."
+    )
+
+    st.dataframe(
+        related_df,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+
+# ============================================================
+# SEMANTIC SEARCH
+# ============================================================
+
+st.divider()
+
+st.header("🔎 L2 Semantic Search")
+
+st.write(
+    "Search the generated L2 evidence without exposing "
+    "the original supplied datasets."
 )
 
-search_query = st.text_input(
+query = st.text_input(
     "Ask a question about the messages",
     placeholder=(
         "What tasks should I complete today?"
@@ -435,83 +376,118 @@ search_query = st.text_input(
 )
 
 
-if search_query:
+def search_results(query_text):
 
-    pipeline = (
-        st.session_state.get(
-            "l2_pipeline"
+    query_text = query_text.lower()
+
+    results = []
+
+    # Search priority results.
+    for _, row in priority_df.iterrows():
+
+        text = " ".join(
+            str(value)
+            for value in row.tolist()
+        ).lower()
+
+        score = sum(
+            word in text
+            for word in query_text.split()
+            if len(word) > 2
         )
+
+        if score > 0:
+
+            results.append(
+                {
+                    "message_id": row.get(
+                        "message_id",
+                        row.get(
+                            "source_message_id",
+                            "",
+                        ),
+                    ),
+                    "item_id": row.get(
+                        "item_id",
+                        "",
+                    ),
+                    "evidence": row.get(
+                        "priority_reason",
+                        "",
+                    ),
+                    "relevance_score": score,
+                }
+            )
+
+    results.sort(
+        key=lambda x: x[
+            "relevance_score"
+        ],
+        reverse=True,
     )
 
-    if pipeline is None:
+    return pd.DataFrame(
+        results[:5]
+    )
+
+
+if query:
+
+    results_df = search_results(
+        query
+    )
+
+    if results_df.empty:
 
         st.warning(
-            "Run the L2 Pipeline first in the "
-            "local environment to search the "
-            "full message collection."
+            "Insufficient evidence to answer this question."
         )
 
     else:
 
-        search_engine = pipeline[
-            "search_engine"
-        ]
+        st.subheader(
+            "Retrieved Evidence"
+        )
 
-        with st.spinner(
-            "Searching messages..."
-        ):
+        st.dataframe(
+            results_df,
+            use_container_width=True,
+            hide_index=True,
+        )
 
-            search_results = (
-                search_engine.search(
-                    search_query,
-                    top_k=5,
-                )
-            )
-
-        if search_results:
-
-            st.subheader(
-                "Retrieved Evidence"
-            )
-
-            st.dataframe(
-                search_results,
-                use_container_width=True,
-                hide_index=True,
-            )
-
-        else:
-
-            st.warning(
-                "Insufficient evidence to answer "
-                "this question."
-            )
+        st.info(
+            "Answer supported by the retrieved "
+            "structured evidence shown above."
+        )
 
 
 # ============================================================
-# PRIVACY-AWARE ROUTING
+# PRIVACY ROUTING
 # ============================================================
 
 st.divider()
 
-st.header(
-    "🔐 Privacy-Aware Routing"
+st.header("🔐 Privacy-Aware Routing")
+
+privacy_request = st.text_input(
+    "Enter a request to check its privacy route",
+    placeholder=(
+        "Example: Analyze this personal information"
+    ),
 )
 
-try:
 
-    from src.privacy_router import (
-        route_request,
-    )
+if privacy_request:
 
-    privacy_request = st.text_input(
-        "Enter a request to check its privacy route",
-        placeholder=(
-            "Example: Analyze this personal information"
-        ),
-    )
+    try:
 
-    if privacy_request:
+        from src.privacy_router import (
+            route_request,
+        )
+
+        request_lower = (
+            privacy_request.lower()
+        )
 
         sensitive_keywords = [
             "password",
@@ -528,11 +504,7 @@ try:
             "authentication",
         ]
 
-        request_lower = (
-            privacy_request.lower()
-        )
-
-        detected_sensitive = any(
+        contains_sensitive = any(
             keyword in request_lower
             for keyword in sensitive_keywords
         )
@@ -542,13 +514,13 @@ try:
             for keyword in high_risk_keywords
         )
 
-        route_result = route_request(
+        result = route_request(
             contains_sensitive_data=(
-                detected_sensitive
+                contains_sensitive
             ),
             sensitivity_type=(
                 "sensitive_information"
-                if detected_sensitive
+                if contains_sensitive
                 else None
             ),
             external_service_requested=False,
@@ -556,100 +528,47 @@ try:
         )
 
         st.write(
-            f"**Route:** "
-            f"`{route_result['route']}`"
+            f"**Route:** `{result['route']}`"
         )
 
         st.write(
-            f"**Reason:** "
-            f"{route_result['reason']}"
+            f"**Reason:** {result['reason']}"
         )
 
-        if route_result.get(
-            "signals"
-        ):
+        if result.get("signals"):
 
             st.write(
                 "**Signals:** "
                 + ", ".join(
-                    route_result["signals"]
+                    result["signals"]
                 )
-            )
-
-except ImportError as error:
-
-    st.error(
-        f"Privacy router unavailable: {error}"
-    )
-
-
-# ============================================================
-# L2 UNSEEN DEMO BATCH
-# ============================================================
-
-st.divider()
-
-st.header(
-    "🧪 L2 Unseen Demo Batch"
-)
-
-if demo_dataset_available:
-
-    try:
-
-        from src.l2_demo import (
-            load_demo_messages,
-        )
-
-        if st.button(
-            "Load L2 Demo Messages"
-        ):
-
-            with st.spinner(
-                "Loading unseen L2 demo batch..."
-            ):
-
-                demo_df = (
-                    load_demo_messages()
-                )
-
-            st.success(
-                f"Loaded {len(demo_df)} "
-                "unseen demo messages."
-            )
-
-            display_columns = [
-                "message_id",
-                "timestamp",
-                "sender",
-                "message",
-            ]
-
-            available_columns = [
-                column
-                for column in display_columns
-                if column in demo_df.columns
-            ]
-
-            st.dataframe(
-                demo_df[
-                    available_columns
-                ],
-                use_container_width=True,
-                hide_index=True,
             )
 
     except Exception as error:
 
         st.error(
-            f"Demo batch could not be loaded: {error}"
+            f"Privacy routing error: {error}"
         )
+
+
+# ============================================================
+# BENCHMARK
+# ============================================================
+
+st.divider()
+
+st.header("📊 Benchmark Comparison")
+
+if not benchmark_data:
+
+    st.warning(
+        "Benchmark results are unavailable."
+    )
 
 else:
 
-    st.info(
-        "The unseen L2 demonstration dataset is "
-        "kept outside the public repository."
+    st.json(
+        benchmark_data
     )
 
 
@@ -661,5 +580,5 @@ st.divider()
 
 st.caption(
     "Message Intelligence System | "
-    "Rule-based L1 + L2 explainable processing pipeline"
+    "L1 + L2 explainable processing pipeline"
 )
