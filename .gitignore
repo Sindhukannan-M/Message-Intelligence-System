@@ -1,17 +1,28 @@
-# Virtual environment
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
 .venv/
 venv/
+env/
 
-# Python cache
-__pycache__/
-*.pyc
+# Datasets - DO NOT COMMIT
+data/l1/
+data/l2/
+L2_demo_messages.csv
+L2_demo_queries.csv
+L2_messages.csv
 
-# Private dataset
-data/*.csv
+# Generated L2 outputs
+l2_outputs/
 
-# Environment variables
+# Environment / secrets
 .env
+.env.*
 
-# OS files
+# OS / IDE
 .DS_Store
-Thumbs.db
+.vscode/
+.idea/
