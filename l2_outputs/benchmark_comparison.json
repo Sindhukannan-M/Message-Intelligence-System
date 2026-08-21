@@ -1,0 +1,26 @@
+{
+  "original": {
+    "response_time_seconds": 0.0262,
+    "size_kb": null,
+    "quality": 1.0
+  },
+  "optimized": {
+    "response_time_seconds": 0.0013,
+    "size_kb": null,
+    "quality": 0.0
+  },
+  "improvement": {
+    "response_time_change_percent": 94.92
+  },
+  "query": "project report",
+  "baseline_method": "linear message scan",
+  "optimized_method": "TF-IDF cosine similarity",
+  "baseline_result_count": 0,
+  "optimized_result_count": 5,
+  "notes": [
+    "Baseline uses a direct message scan.",
+    "Optimized retrieval uses TF-IDF and cosine similarity.",
+    "Response time is measured locally.",
+    "Quality is represented by overlap with baseline results."
+  ]
+}

@@ -1,0 +1,534 @@
+[
+  {
+    "group_id": "GROUP_001",
+    "title": "Can you share an update on review the privacy checklist?",
+    "related_message_ids": [
+      "MSG_0901",
+      "MSG_0904",
+      "MSG_0907",
+      "MSG_0910",
+      "MSG_0913",
+      "MSG_0916",
+      "MSG_0919",
+      "MSG_0922",
+      "MSG_0925",
+      "MSG_0928"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Can you share an update on update the project tracker?",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.7
+  },
+  {
+    "group_id": "GROUP_002",
+    "title": "Following up on reply to the client email; is it in progress?",
+    "related_message_ids": [
+      "MSG_0902",
+      "MSG_0905",
+      "MSG_0908",
+      "MSG_0911",
+      "MSG_0914",
+      "MSG_0917",
+      "MSG_0920",
+      "MSG_0923",
+      "MSG_0926",
+      "MSG_0929"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Following up on upload the assignment; is it in progress?",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.74
+  },
+  {
+    "group_id": "GROUP_003",
+    "title": "Please confirm whether you started to pay the electricity bill.",
+    "related_message_ids": [
+      "MSG_0903",
+      "MSG_0906",
+      "MSG_0909",
+      "MSG_0912",
+      "MSG_0915",
+      "MSG_0918",
+      "MSG_0921",
+      "MSG_0924",
+      "MSG_0927",
+      "MSG_0930",
+      "MSG_0992",
+      "MSG_0997",
+      "MSG_1002",
+      "MSG_1007",
+      "MSG_1012"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: please check the latest status of reply to the client email.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.79
+  },
+  {
+    "group_id": "GROUP_004",
+    "title": "Update: finish the test cases has been completed successfully.",
+    "related_message_ids": [
+      "MSG_0931",
+      "MSG_0933",
+      "MSG_0935",
+      "MSG_0937",
+      "MSG_0939",
+      "MSG_0941",
+      "MSG_0943",
+      "MSG_0945",
+      "MSG_0947",
+      "MSG_0949",
+      "MSG_1056",
+      "MSG_1061",
+      "MSG_1066"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Additional update: the report might already be done, but I am not completely sure.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.88
+  },
+  {
+    "group_id": "GROUP_005",
+    "title": "You can cancel call the service centre; it is no longer required.",
+    "related_message_ids": [
+      "MSG_0932",
+      "MSG_0934",
+      "MSG_0936",
+      "MSG_0938",
+      "MSG_0940",
+      "MSG_0942",
+      "MSG_0944",
+      "MSG_0946",
+      "MSG_0948",
+      "MSG_0950",
+      "MSG_0993",
+      "MSG_0998",
+      "MSG_1003",
+      "MSG_1008",
+      "MSG_1013"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: the work we discussed about the model results still needs attention.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.85
+  },
+  {
+    "group_id": "GROUP_006",
+    "title": "The family dinner has been moved to 2026-09-29 at 10:00. Please use the new sche",
+    "related_message_ids": [
+      "MSG_0951",
+      "MSG_0952",
+      "MSG_0953",
+      "MSG_0954",
+      "MSG_0955",
+      "MSG_0956",
+      "MSG_0957",
+      "MSG_0958",
+      "MSG_0959",
+      "MSG_0960",
+      "MSG_0961",
+      "MSG_0962",
+      "MSG_0963",
+      "MSG_0964",
+      "MSG_0965",
+      "MSG_0966",
+      "MSG_0967",
+      "MSG_0968",
+      "MSG_0969",
+      "MSG_0970"
+    ],
+    "related_task_event_ids": [],
+    "summary": "The placement briefing has been moved to 2026-10-06 at 15:00. Please use the new schedule.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.85
+  },
+  {
+    "group_id": "GROUP_007",
+    "title": "The deadline to share the meeting notes is now 2026-09-27, earlier than previous",
+    "related_message_ids": [
+      "MSG_0971",
+      "MSG_0973",
+      "MSG_0975",
+      "MSG_0977",
+      "MSG_0979",
+      "MSG_0981",
+      "MSG_0983",
+      "MSG_0985",
+      "MSG_0987",
+      "MSG_0989"
+    ],
+    "related_task_event_ids": [],
+    "summary": "The deadline to back up the project files is now 2026-09-27, earlier than previously planned. Treat this as urgent.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.83
+  },
+  {
+    "group_id": "GROUP_008",
+    "title": "Please note that confirm the interview slot is due on 2026-09-28, although the e",
+    "related_message_ids": [
+      "MSG_0972",
+      "MSG_0974",
+      "MSG_0976",
+      "MSG_0978",
+      "MSG_0980",
+      "MSG_0982",
+      "MSG_0984",
+      "MSG_0986",
+      "MSG_0988",
+      "MSG_0990"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Please note that pay the electricity bill is due on 2026-09-28, although the earlier message listed another date.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.87
+  },
+  {
+    "group_id": "GROUP_009",
+    "title": "Any progress on the item concerning the assignment?",
+    "related_message_ids": [
+      "MSG_0991",
+      "MSG_0996",
+      "MSG_1001",
+      "MSG_1006",
+      "MSG_1011"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: any progress on the item concerning update the project tracker?",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.79
+  },
+  {
+    "group_id": "GROUP_010",
+    "title": "Has the reply to the client email item been handled yet?",
+    "related_message_ids": [
+      "MSG_0994",
+      "MSG_0999",
+      "MSG_1004",
+      "MSG_1009",
+      "MSG_1014"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: has the the revised presentation item been handled yet?",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.78
+  },
+  {
+    "group_id": "GROUP_011",
+    "title": "I am referring to our earlier request about finish the test cases.",
+    "related_message_ids": [
+      "MSG_0995",
+      "MSG_1000",
+      "MSG_1005",
+      "MSG_1010",
+      "MSG_1015"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: i am referring to our earlier request about email the signed document.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.81
+  },
+  {
+    "group_id": "GROUP_012",
+    "title": "A new prepare the offline inference demo session is scheduled for 2026-09-30 at ",
+    "related_message_ids": [
+      "MSG_1016",
+      "MSG_1020",
+      "MSG_1024",
+      "MSG_1028",
+      "MSG_1032"
+    ],
+    "related_task_event_ids": [],
+    "summary": "A new update the architecture diagram session is scheduled for 2026-10-06 at 14:00.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.66
+  },
+  {
+    "group_id": "GROUP_013",
+    "title": "New task: compare two embedding models by 2026-10-01.",
+    "related_message_ids": [
+      "MSG_1017",
+      "MSG_1018",
+      "MSG_1019",
+      "MSG_1021",
+      "MSG_1022",
+      "MSG_1023",
+      "MSG_1025",
+      "MSG_1026",
+      "MSG_1027",
+      "MSG_1029",
+      "MSG_1030",
+      "MSG_1031",
+      "MSG_1033",
+      "MSG_1034",
+      "MSG_1035"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: new task: validate the mandatory queries by 2026-10-09.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.59
+  },
+  {
+    "group_id": "GROUP_014",
+    "title": "Your new OTP is 735921. It expires shortly.",
+    "related_message_ids": [
+      "MSG_1036",
+      "MSG_1046"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: Your new OTP is 735921-B. It expires shortly-B.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.85
+  },
+  {
+    "group_id": "GROUP_015",
+    "title": "Use access token tok_l2_demo_7QX91 for the integration.",
+    "related_message_ids": [
+      "MSG_1037",
+      "MSG_1047"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: Use access token tok_l2_demo_7QX91 for the integration-B.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.89
+  },
+  {
+    "group_id": "GROUP_016",
+    "title": "The test card number is 5555 4444 3333 1111.",
+    "related_message_ids": [
+      "MSG_1038",
+      "MSG_1048"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: The test card number is 5555 4444 3333 1111-B.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.87
+  },
+  {
+    "group_id": "GROUP_017",
+    "title": "Please deliver it to 17 River Park Street, Chennai.",
+    "related_message_ids": [
+      "MSG_1039",
+      "MSG_1049"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: Please deliver it to 17 River Park Street, Chennai-B.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.89
+  },
+  {
+    "group_id": "GROUP_018",
+    "title": "Call me on 91234 56789 after the meeting.",
+    "related_message_ids": [
+      "MSG_1040",
+      "MSG_1050"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: Call me on 91234 56789 after the meeting-B.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.86
+  },
+  {
+    "group_id": "GROUP_019",
+    "title": "My private medical note mentions a thyroid condition.",
+    "related_message_ids": [
+      "MSG_1041",
+      "MSG_1051"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: My private medical note mentions a thyroid condition-B.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.89
+  },
+  {
+    "group_id": "GROUP_020",
+    "title": "The temporary password is L2Demo#884.",
+    "related_message_ids": [
+      "MSG_1042",
+      "MSG_1052"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: The temporary password is L2Demo#884-B.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.85
+  },
+  {
+    "group_id": "GROUP_021",
+    "title": "My fictional ID number is ID-L2-77391.",
+    "related_message_ids": [
+      "MSG_1043",
+      "MSG_1053"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: My fictional ID number is ID-L2-77391-B.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.85
+  },
+  {
+    "group_id": "GROUP_022",
+    "title": "The sample bank account is 001278903456.",
+    "related_message_ids": [
+      "MSG_1044",
+      "MSG_1054"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: The sample bank account is 001278903456-B.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.86
+  },
+  {
+    "group_id": "GROUP_023",
+    "title": "Save recovery code REC-L2-88-KQ.",
+    "related_message_ids": [
+      "MSG_1045",
+      "MSG_1055"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Follow-up: Save recovery code REC-L2-88-KQ-B.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.83
+  },
+  {
+    "group_id": "GROUP_024",
+    "title": "We may move the meeting, I will confirm later.",
+    "related_message_ids": [
+      "MSG_1057",
+      "MSG_1062",
+      "MSG_1067"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Additional update: we may move the meeting, I will confirm later.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.85
+  },
+  {
+    "group_id": "GROUP_025",
+    "title": "The deadline could be tomorrow or Monday; please wait for confirmation.",
+    "related_message_ids": [
+      "MSG_1058",
+      "MSG_1063",
+      "MSG_1068"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Additional update: the deadline could be tomorrow or Monday; please wait for confirmation.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.9
+  },
+  {
+    "group_id": "GROUP_026",
+    "title": "Maya said someone probably handled the task.",
+    "related_message_ids": [
+      "MSG_1059",
+      "MSG_1064",
+      "MSG_1069"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Additional update: maya said someone probably handled the task.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.85
+  },
+  {
+    "group_id": "GROUP_027",
+    "title": "This may no longer be urgent.",
+    "related_message_ids": [
+      "MSG_1060",
+      "MSG_1065",
+      "MSG_1070"
+    ],
+    "related_task_event_ids": [],
+    "summary": "Additional update: this may no longer be urgent.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.8
+  },
+  {
+    "group_id": "GROUP_028",
+    "title": "The office cafeteria menu has been updated.",
+    "related_message_ids": [
+      "MSG_1071",
+      "MSG_1074",
+      "MSG_1077"
+    ],
+    "related_task_event_ids": [],
+    "summary": "The optional webinar recording is available.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.46
+  },
+  {
+    "group_id": "GROUP_029",
+    "title": "A new wallpaper is available in the employee portal.",
+    "related_message_ids": [
+      "MSG_1072"
+    ],
+    "related_task_event_ids": [],
+    "summary": "A new wallpaper is available in the employee portal.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 1.0
+  },
+  {
+    "group_id": "GROUP_030",
+    "title": "The weekend newsletter is ready.",
+    "related_message_ids": [
+      "MSG_1073"
+    ],
+    "related_task_event_ids": [],
+    "summary": "The weekend newsletter is ready.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 1.0
+  },
+  {
+    "group_id": "GROUP_031",
+    "title": "The community channel has a new banner.",
+    "related_message_ids": [
+      "MSG_1075",
+      "MSG_1079",
+      "MSG_1080"
+    ],
+    "related_task_event_ids": [],
+    "summary": "The monthly bulletin has been published.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.49
+  },
+  {
+    "group_id": "GROUP_032",
+    "title": "The lobby display will restart tonight.",
+    "related_message_ids": [
+      "MSG_1076",
+      "MSG_1078"
+    ],
+    "related_task_event_ids": [],
+    "summary": "The office plants were moved upstairs.",
+    "status": "Unclear",
+    "latest_deadline": null,
+    "confidence": 0.47
+  }
+]
